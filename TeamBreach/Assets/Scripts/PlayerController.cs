@@ -22,6 +22,9 @@ public class PlayerController : MonoBehaviour
 
 
     private FMOD.Studio.EventInstance i;
+
+
+    [SerializeField] float m_SlowDownAmount, m_SpeedUpAmount;
     void Start()
     {
         m_RB = transform.GetComponent<Rigidbody2D>();
@@ -73,12 +76,18 @@ public class PlayerController : MonoBehaviour
                 break;
             case PlayerState.DEFAULT:
                 m_Speed = m_NormalSpeed;
+                Time.timeScale = 1;
+                Time.fixedDeltaTime = Time.timeScale * .02f;
                 break;
             case PlayerState.FAST:
                 m_Speed = m_FastSpeed;
+                Time.timeScale = m_SpeedUpAmount;
+                Time.fixedDeltaTime = Time.timeScale * .02f;
                 break;
             case PlayerState.SLOW:
                 m_Speed = m_SlowSpeed;
+                Time.timeScale = m_SlowDownAmount;
+                Time.fixedDeltaTime = Time.timeScale * .02f;
                 break;
         }
     }
