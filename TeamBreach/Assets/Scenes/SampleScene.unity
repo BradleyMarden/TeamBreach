@@ -1818,6 +1818,7 @@ GameObject:
   - component: {fileID: 1556888774}
   - component: {fileID: 1556888773}
   - component: {fileID: 1556888776}
+  - component: {fileID: 1556888777}
   m_Layer: 0
   m_Name: Collectable
   m_TagString: Collectable
@@ -1928,6 +1929,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1556888777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556888772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/New Event 2
+  PlayEvent: 5
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1619461227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,6 +2211,7 @@ GameObject:
   - component: {fileID: 1752227589}
   - component: {fileID: 1752227592}
   - component: {fileID: 1752227593}
+  - component: {fileID: 1752227594}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2256,7 +2281,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.8867924, g: 0.15477037, b: 0.15477037, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2315,6 +2340,25 @@ MonoBehaviour:
   m_IsVolatile: 0
   m_PlayerState: 4
   m_StartPos: {fileID: 1206304778}
+--- !u!95 &1752227594
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752227588}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 76646ff47c2377b4e94c3a4c01d2f5e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1854308727
 GameObject:
   m_ObjectHideFlags: 0

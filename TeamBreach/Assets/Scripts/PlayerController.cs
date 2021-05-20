@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool m_FreezeController = false;
 
 
-
+    private FMOD.Studio.EventInstance i;
     void Start()
     {
         m_RB = transform.GetComponent<Rigidbody2D>();
@@ -53,6 +53,14 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey(KeyCode.Mouse1)) { m_PlayerState = PlayerState.SLOW; }
         else { m_PlayerState = PlayerState.DEFAULT; }
 
+    }
+
+    void PlayFootstep() 
+    {
+        i = FMODUnity.RuntimeManager.CreateInstance("event:/New Event 2");
+        i.start();
+        i.release();
+        
     }
 
     void CheckStates() 
