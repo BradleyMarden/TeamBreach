@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: 651e452a01c67a04ea85e737e28d8799
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6144530303687652612
+    second: _himeBar_0
+  - first:
+      213: -3513814905777066660
+    second: _himeBar_1
+  - first:
+      213: 6067699450378313555
+    second: _himeBar_2
+  - first:
+      213: -6095250817334644382
+    second: _himeBar_3
+  - first:
+      213: -3500483853282139633
+    second: _himeBar_4
+  - first:
+      213: -7130568505237570762
+    second: _himeBar_5
+  - first:
+      213: 6582685925934410785
+    second: _himeBar_6
+  - first:
+      213: -6839556684086608141
+    second: _himeBar_7
+  - first:
+      213: -3377040626600392707
+    second: _himeBar_8
+  - first:
+      213: -5149745079423828618
+    second: _himeBar_9
+  - first:
+      213: -3189237878804730459
+    second: _himeBar_10
+  - first:
+      213: 5642500912214984408
+    second: _himeBar_11
+  - first:
+      213: 6105414073028346280
+    second: _himeBar_12
+  - first:
+      213: 2892966285119128675
+    second: _himeBar_13
+  - first:
+      213: -8013718189578528209
+    second: _himeBar_14
+  - first:
+      213: -4079149624801876253
+    second: _himeBar_15
+  - first:
+      213: 4680781042503129809
+    second: _himeBar_16
+  - first:
+      213: 3377702453597152176
+    second: _himeBar_17
+  - first:
+      213: 7950627844492995530
+    second: _himeBar_18
+  - first:
+      213: -8616345048831950727
+    second: _himeBar_19
+  - first:
+      213: 7838537533086159039
+    second: _himeBar_20
+  - first:
+      213: 1268167913826454618
+    second: _himeBar_21
+  - first:
+      213: -1613545466138426474
+    second: _himeBar_22
+  - first:
+      213: -4466626380522927535
+    second: _himeBar_23
+  - first:
+      213: -4584164840675795710
+    second: _himeBar_24
+  - first:
+      213: -4605244167993843794
+    second: _himeBar_25
+  - first:
+      213: 7711476743643513551
+    second: _himeBar_26
+  - first:
+      213: 8050163734835041758
+    second: _himeBar_27
+  - first:
+      213: 4706232489629909121
+    second: _himeBar_28
+  - first:
+      213: -8522160560847878402
+    second: _himeBar_29
+  - first:
+      213: -7411331999062767710
+    second: _himeBar_30
+  - first:
+      213: -5018537498049710424
+    second: _himeBar_31
+  - first:
+      213: -7840099120083492137
+    second: _himeBar_32
+  - first:
+      213: 2335816195274762946
+    second: _himeBar_33
+  - first:
+      213: 2348582662405925049
+    second: _himeBar_34
+  - first:
+      213: 8555310279493782923
+    second: _himeBar_35
+  - first:
+      213: 8585420657127244567
+    second: _himeBar_36
+  - first:
+      213: 2240389328293447477
+    second: _himeBar_37
+  - first:
+      213: -1962892047027012607
+    second: _himeBar_38
+  - first:
+      213: 9104841093652389920
+    second: _himeBar_39
+  - first:
+      213: -6811818496464362768
+    second: _himeBar_40
+  - first:
+      213: 3075759564272577318
+    second: _himeBar_41
+  - first:
+      213: 7786182733682488240
+    second: _himeBar_42
+  - first:
+      213: -5372398445415582465
+    second: _himeBar_43
+  - first:
+      213: -3705700193379928791
+    second: _himeBar_44
+  - first:
+      213: -718839314589702349
+    second: _himeBar_45
+  - first:
+      213: -2473157245885420785
+    second: _himeBar_46
+  - first:
+      213: 6338777520562590450
+    second: _himeBar_47
+  - first:
+      213: 5945824313377725107
+    second: _himeBar_48
+  - first:
+      213: 4646297185988195961
+    second: _himeBar_49
+  - first:
+      213: -6693517649828698887
+    second: _himeBar_50
+  - first:
+      213: 5290827063611142529
+    second: _himeBar_51
+  - first:
+      213: 2927157673777990348
+    second: _himeBar_52
+  - first:
+      213: -7989207732269156901
+    second: _himeBar_53
+  - first:
+      213: 5989783953307973987
+    second: _himeBar_54
+  - first:
+      213: 2197573653505898624
+    second: _himeBar_55
+  - first:
+      213: 7963711575891143617
+    second: _himeBar_56
+  - first:
+      213: 4486026101058202641
+    second: _himeBar_57
+  - first:
+      213: -5458434167392321735
+    second: _himeBar_58
+  - first:
+      213: 4483651549450203082
+    second: _himeBar_59
+  - first:
+      213: 5389516511357146615
+    second: _himeBar_60
+  - first:
+      213: -204266300891411476
+    second: _himeBar_61
+  - first:
+      213: 5341468156302817164
+    second: _himeBar_62
+  - first:
+      213: 62770378075101545
+    second: _himeBar_63
+  - first:
+      213: 3281024016241871398
+    second: _himeBar_64
+  - first:
+      213: 608059381231515275
+    second: _himeBar_65
+  - first:
+      213: -4970839715122241935
+    second: _himeBar_66
+  - first:
+      213: -5525615707739381640
+    second: _himeBar_67
+  - first:
+      213: -6037843297372793674
+    second: _himeBar_68
+  - first:
+      213: 4725487659935327461
+    second: _himeBar_69
+  - first:
+      213: -3741310264864439085
+    second: _himeBar_70
+  - first:
+      213: 3565953887007612948
+    second: _himeBar_71
+  - first:
+      213: -6778928964261770791
+    second: _himeBar_72
+  - first:
+      213: -4265118318588845571
+    second: _himeBar_73
+  - first:
+      213: -2047871306823971112
+    second: _himeBar_74
+  - first:
+      213: 6527577008799533924
+    second: _himeBar_75
+  - first:
+      213: 8816139761096163989
+    second: _himeBar_76
+  - first:
+      213: 2168668284324441152
+    second: _himeBar_77
+  - first:
+      213: 3763513009137049636
+    second: _himeBar_78
+  - first:
+      213: -4588677049677184997
+    second: _himeBar_79
+  - first:
+      213: -4334777751062037273
+    second: _himeBar_80
+  - first:
+      213: -4525968961236704881
+    second: _himeBar_81
+  - first:
+      213: -5854230003500003092
+    second: _himeBar_82
+  - first:
+      213: -2073831175399445223
+    second: _himeBar_83
+  - first:
+      213: -1159662261818379504
+    second: _himeBar_84
+  - first:
+      213: -7067559661302391317
+    second: _himeBar_85
+  - first:
+      213: -4414460063170245436
+    second: _himeBar_86
+  - first:
+      213: 2609043404057127409
+    second: _himeBar_87
+  - first:
+      213: -8194890715887993553
+    second: _himeBar_88
+  - first:
+      213: -336417234712533263
+    second: _himeBar_89
+  - first:
+      213: 3664090670795131021
+    second: _himeBar_90
+  - first:
+      213: -827525126254722021
+    second: _himeBar_91
+  - first:
+      213: -5696884315770600383
+    second: _himeBar_92
+  - first:
+      213: -8209619952116320522
+    second: _himeBar_93
+  - first:
+      213: 7532244972987446607
+    second: _himeBar_94
+  - first:
+      213: 2588755566320790372
+    second: _himeBar_95
+  - first:
+      213: -1224420016019789654
+    second: _himeBar_96
+  - first:
+      213: -581881130726716761
+    second: _himeBar_97
+  - first:
+      213: 321133055277454610
+    second: _himeBar_98
+  - first:
+      213: 2286737796784539106
+    second: _himeBar_99
+  - first:
+      213: 4761305381920764104
+    second: _himeBar_100
+  - first:
+      213: 8102326300270365341
+    second: _himeBar_101
+  - first:
+      213: -3196935677412381816
+    second: _himeBar_102
+  - first:
+      213: -6452524807768789990
+    second: _himeBar_103
+  - first:
+      213: -5793438284597333699
+    second: _himeBar_104
+  - first:
+      213: 571985710314616804
+    second: _himeBar_105
+  - first:
+      213: -8171263150027016180
+    second: _himeBar_106
+  - first:
+      213: -6948771122358432876
+    second: _himeBar_107
+  - first:
+      213: 8311966453355358477
+    second: _himeBar_108
+  - first:
+      213: 5301236225372898779
+    second: _himeBar_109
+  - first:
+      213: 4058374920703795545
+    second: _himeBar_110
+  - first:
+      213: -8530320573490420952
+    second: _himeBar_111
+  - first:
+      213: 3099832686729695027
+    second: _himeBar_112
+  - first:
+      213: -5522834616996146359
+    second: _himeBar_113
+  - first:
+      213: -4485768273637723108
+    second: _himeBar_114
+  - first:
+      213: 6667300195980041888
+    second: _himeBar_115
+  - first:
+      213: -7639750227428484068
+    second: _himeBar_116
+  - first:
+      213: 8941259901578951979
+    second: _himeBar_117
+  - first:
+      213: -718005684046768252
+    second: _himeBar_118
+  - first:
+      213: -611484397207732098
+    second: _himeBar_119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _himeBar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405fcee81c1c54550800000000000000
+      internalID: 6144530303687652612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d6faec5fb6c3fc0800000000000000
+      internalID: -3513814905777066660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fd1a7808cc43450800000000000000
+      internalID: 6067699450378313555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261fbd7fca1596ba0800000000000000
+      internalID: -6095250817334644382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02a0275b78cb6fc0800000000000000
+      internalID: -3500483853282139633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bf9be49b12b0d90800000000000000
+      internalID: -7130568505237570762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ca84b19f56a5b50800000000000000
+      internalID: 6582685925934410785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe7edfee630511a0800000000000000
+      internalID: -6839556684086608141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7cb6341775221d0800000000000000
+      internalID: -3377040626600392707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d7021822e6888b0800000000000000
+      internalID: -5149745079423828618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_10
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adaf99eb0d8db3d0800000000000000
+      internalID: -3189237878804730459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_11
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d644653fa03e4e40800000000000000
+      internalID: 5642500912214984408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_12
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1868560c9cab450800000000000000
+      internalID: 6105414073028346280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_13
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36405bb3281e52820800000000000000
+      internalID: 2892966285119128675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_14
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad51cd3cd89c090800000000000000
+      internalID: -8013718189578528209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_15
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6240c4703f367c0800000000000000
+      internalID: -4079149624801876253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_16
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da18cdee8975f040800000000000000
+      internalID: 4680781042503129809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_17
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3af975c7200ee20800000000000000
+      internalID: 3377702453597152176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_18
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acba55c76ed465e60800000000000000
+      internalID: 7950627844492995530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_19
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9700d2654d79c6880800000000000000
+      internalID: -8616345048831950727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_20
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0da222b5418cc60800000000000000
+      internalID: 7838537533086159039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_21
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c8c23afff699110800000000000000
+      internalID: 1268167913826454618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_22
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69380ed82f88b99e0800000000000000
+      internalID: -1613545466138426474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_23
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aca8cd8fa5302c0800000000000000
+      internalID: -4466626380522927535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_24
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d1fa78d56c160c0800000000000000
+      internalID: -4584164840675795710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _himeBar_25
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 192.3077
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf99ce24d2e610c0800000000000000
+      internalID: -4605244167993843794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2e86c78978ef4a245a1e31b82c830586
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

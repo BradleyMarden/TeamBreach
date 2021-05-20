@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
 
@@ -12,8 +12,10 @@ public class PlayerController : MonoBehaviour
 
     //Player states NTS: CHNAGE TO PRIVATE
     public enum PlayerState {NONE, DEFAULT, FAST, SLOW };
+    public enum PlayerLife {NONE, ALIVE, DYING, DEAD };
     public bool m_IsVolatile = false;
     public PlayerState m_PlayerState = PlayerState.NONE;
+    public PlayerLife m_PlayerLife = PlayerLife.NONE;
 
     //Respawn
     public Transform m_StartPos;
@@ -23,17 +25,25 @@ public class PlayerController : MonoBehaviour
 
     private FMOD.Studio.EventInstance i;
 
-
+    [SerializeField] Image m_FuelBar;
+    [SerializeField] Slider m_Slider;
+    [SerializeField] private float m_MaxFuel, m_CurrentFuel;
+    [SerializeField] private float m_FuelUserRate;
+    public float m_LerpSpeed;
     [SerializeField] float m_SlowDownAmount, m_SpeedUpAmount;
     void Start()
     {
         m_RB = transform.GetComponent<Rigidbody2D>();
+        Spawn();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (m_PlayerLife!= PlayerLife.DEAD) { SetFuelAmount();}
+
+
     }
     private void FixedUpdate()
     {
@@ -49,6 +59,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void Spawn() 
+    {
+        m_PlayerLife = PlayerLife.ALIVE;
+        m_CurrentFuel = m_MaxFuel;
+        transform.position = m_StartPos.position;
+        m_IsVolatile = false;
+        m_FreezeController = false;
+        transform.GetComponent<SpriteRenderer>().enabled = true;
+    }
 
     void CheckMouseInput() 
     {
@@ -63,6 +82,21 @@ public class PlayerController : MonoBehaviour
         i = FMODUnity.RuntimeManager.CreateInstance("event:/New Event 2");
         i.start();
         i.release();
+        
+    }
+    void CheckFuel() 
+    {
+
+    }
+
+    void SetFuelAmount() 
+    {
+        if (m_CurrentFuel <= 0) { StartCoroutine(Respawn()); }
+
+        m_CurrentFuel -= m_FuelUserRate * Time.deltaTime; 
+        //m_FuelBar.GetComponent<Renderer>().material.SetFloat("_Fuel", m_CurrentFuel);
+        m_FuelBar.material.SetFloat("_Fuel",  m_CurrentFuel/m_MaxFuel);
+        m_Slider.value = m_CurrentFuel / m_MaxFuel;
         
     }
 
@@ -90,6 +124,22 @@ public class PlayerController : MonoBehaviour
                 Time.fixedDeltaTime = Time.timeScale * .02f;
                 break;
         }
+
+        switch (m_PlayerLife) 
+        {
+            case PlayerLife.NONE:
+                break;
+            case PlayerLife.ALIVE:
+                break;
+            case PlayerLife.DYING:
+                break;
+            case PlayerLife.DEAD:
+                Debug.LogError("DEAD");
+                float lerped = Mathf.Lerp(m_CurrentFuel / m_MaxFuel, 0, m_LerpSpeed* Time.deltaTime);
+                //m_FuelBar.material.SetFloat("_Fuel", lerped);
+
+                break;
+        }
     }
 
     public void HasCollidedWithWall(GameObject p_Object) 
@@ -104,13 +154,12 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Respawn() 
     {
+        m_PlayerLife = PlayerLife.DEAD;
         transform.GetComponent<SpriteRenderer>().enabled = false;
         m_FreezeController = true;
         yield return new WaitForSeconds(1);
-        transform.position = m_StartPos.position;
-        m_IsVolatile = false;
-        m_FreezeController = false;
-        transform.GetComponent<SpriteRenderer>().enabled = true;
+        // transform.position = m_StartPos.position;
+        Spawn();
 
     }
 

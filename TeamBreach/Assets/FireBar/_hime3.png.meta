@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: fb4a57e065127b94c8147b0cf6111a84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4520417708029472101
+    second: _hime3_0
+  - first:
+      213: -3870427886400370617
+    second: _hime3_1
+  - first:
+      213: -6257990042632563778
+    second: _hime3_2
+  - first:
+      213: -4104049265016255785
+    second: _hime3_3
+  - first:
+      213: -2229528811391551984
+    second: _hime3_4
+  - first:
+      213: -8310276706330696875
+    second: _hime3_5
+  - first:
+      213: 7568389260172244880
+    second: _hime3_6
+  - first:
+      213: 3213345242968370730
+    second: _hime3_7
+  - first:
+      213: 4332228851767289874
+    second: _hime3_8
+  - first:
+      213: -5951692760571714065
+    second: _hime3_9
+  - first:
+      213: 3176890164230779648
+    second: _hime3_10
+  - first:
+      213: -5706277743394139570
+    second: _hime3_11
+  - first:
+      213: -7288655042912960146
+    second: _hime3_12
+  - first:
+      213: -8667076242715999745
+    second: _hime3_13
+  - first:
+      213: -1952055549753317004
+    second: _hime3_14
+  - first:
+      213: 5830451570354861781
+    second: _hime3_15
+  - first:
+      213: -2899847892644670589
+    second: _hime3_16
+  - first:
+      213: 8660516941185778573
+    second: _hime3_17
+  - first:
+      213: 399076174267731921
+    second: _hime3_18
+  - first:
+      213: -6839243146215736790
+    second: _hime3_19
+  - first:
+      213: -6046171847348678247
+    second: _hime3_20
+  - first:
+      213: -1742195141093044739
+    second: _hime3_21
+  - first:
+      213: 5145525710241616903
+    second: _hime3_22
+  - first:
+      213: -1476915527560453803
+    second: _hime3_23
+  - first:
+      213: -5553771638536253332
+    second: _hime3_24
+  - first:
+      213: 4195289905570669063
+    second: _hime3_25
+  - first:
+      213: 39733503396328205
+    second: _hime3_26
+  - first:
+      213: 1538456894647983421
+    second: _hime3_27
+  - first:
+      213: -6643328854284185076
+    second: _hime3_28
+  - first:
+      213: 6668220716170541950
+    second: _hime3_29
+  - first:
+      213: -2007609410218578913
+    second: _hime3_30
+  - first:
+      213: -8950612590571296398
+    second: _hime3_31
+  - first:
+      213: -1033008974510008200
+    second: _hime3_32
+  - first:
+      213: 4891194553683398015
+    second: _hime3_33
+  - first:
+      213: 5061380010996822047
+    second: _hime3_34
+  - first:
+      213: 7695365765540433081
+    second: _hime3_35
+  - first:
+      213: 356739685391377804
+    second: _hime3_36
+  - first:
+      213: -7160775003811178214
+    second: _hime3_37
+  - first:
+      213: -8857678219363384397
+    second: _hime3_38
+  - first:
+      213: -2130192481612270142
+    second: _hime3_39
+  - first:
+      213: -5977613673122749443
+    second: _hime3_40
+  - first:
+      213: -9019436963160345682
+    second: _hime3_41
+  - first:
+      213: -882686630118225592
+    second: _hime3_42
+  - first:
+      213: -3138414454377897713
+    second: _hime3_43
+  - first:
+      213: 5540514564986184169
+    second: _hime3_44
+  - first:
+      213: -1874366161113650437
+    second: _hime3_45
+  - first:
+      213: 895275093569738695
+    second: _hime3_46
+  - first:
+      213: 1429191930242558077
+    second: _hime3_47
+  - first:
+      213: 8944155798604710885
+    second: _hime3_48
+  - first:
+      213: 7918387273218540180
+    second: _hime3_49
+  - first:
+      213: 2558386886251471900
+    second: _hime3_50
+  - first:
+      213: -3337474720614052946
+    second: _hime3_51
+  - first:
+      213: 7901090187985865748
+    second: _hime3_52
+  - first:
+      213: 3654242661227684614
+    second: _hime3_53
+  - first:
+      213: -6022803473064809906
+    second: _hime3_54
+  - first:
+      213: -2514718994351221252
+    second: _hime3_55
+  - first:
+      213: -3031155251788242967
+    second: _hime3_56
+  - first:
+      213: -2928070610195920229
+    second: _hime3_57
+  - first:
+      213: 7701583623531928777
+    second: _hime3_58
+  - first:
+      213: -6971312882557499212
+    second: _hime3_59
+  - first:
+      213: 5638072189468797307
+    second: _hime3_60
+  - first:
+      213: -2791510649957391110
+    second: _hime3_61
+  - first:
+      213: -3142254064670920180
+    second: _hime3_62
+  - first:
+      213: 4341855238872383645
+    second: _hime3_63
+  - first:
+      213: 7829421989074900568
+    second: _hime3_64
+  - first:
+      213: 6716223798147936496
+    second: _hime3_65
+  - first:
+      213: 6441876395268497861
+    second: _hime3_66
+  - first:
+      213: -5366238359679857116
+    second: _hime3_67
+  - first:
+      213: -8366604260394197098
+    second: _hime3_68
+  - first:
+      213: -6594160693136606664
+    second: _hime3_69
+  - first:
+      213: -6575174002121908704
+    second: _hime3_70
+  - first:
+      213: -6827678092386692008
+    second: _hime3_71
+  - first:
+      213: -1788780790474971670
+    second: _hime3_72
+  - first:
+      213: -2798754264663792175
+    second: _hime3_73
+  - first:
+      213: 8034251015500812725
+    second: _hime3_74
+  - first:
+      213: 8053928920029630347
+    second: _hime3_75
+  - first:
+      213: 2493697508836102371
+    second: _hime3_76
+  - first:
+      213: 7203288751202587870
+    second: _hime3_77
+  - first:
+      213: 531100471063747541
+    second: _hime3_78
+  - first:
+      213: -1794991645551897416
+    second: _hime3_79
+  - first:
+      213: 4312873306129274784
+    second: _hime3_80
+  - first:
+      213: -898368019319209089
+    second: _hime3_81
+  - first:
+      213: -4580497112453762483
+    second: _hime3_82
+  - first:
+      213: 5120096740963666227
+    second: _hime3_83
+  - first:
+      213: -6425512428590017906
+    second: _hime3_84
+  - first:
+      213: -8444703840730793073
+    second: _hime3_85
+  - first:
+      213: -2026533063716932905
+    second: _hime3_86
+  - first:
+      213: -6510098421469018805
+    second: _hime3_87
+  - first:
+      213: -140161267342053418
+    second: _hime3_88
+  - first:
+      213: 7807417524703912026
+    second: _hime3_89
+  - first:
+      213: 3942757018790858025
+    second: _hime3_90
+  - first:
+      213: 875389671807153684
+    second: _hime3_91
+  - first:
+      213: -248879651421893718
+    second: _hime3_92
+  - first:
+      213: -8744877332458400009
+    second: _hime3_93
+  - first:
+      213: 5322468561474722226
+    second: _hime3_94
+  - first:
+      213: -5512359506576085752
+    second: _hime3_95
+  - first:
+      213: 3625009629494122624
+    second: _hime3_96
+  - first:
+      213: -3249166550154319197
+    second: _hime3_97
+  - first:
+      213: 2720411843388281837
+    second: _hime3_98
+  - first:
+      213: -1187479420876681563
+    second: _hime3_99
+  - first:
+      213: -9180562735453671490
+    second: _hime3_100
+  - first:
+      213: -1298845600653362456
+    second: _hime3_101
+  - first:
+      213: -1137570952013187578
+    second: _hime3_102
+  - first:
+      213: -153717942604942494
+    second: _hime3_103
+  - first:
+      213: -8554710154202765297
+    second: _hime3_104
+  - first:
+      213: -1863283304180678406
+    second: _hime3_105
+  - first:
+      213: -8504596510994721966
+    second: _hime3_106
+  - first:
+      213: -5733644701849366241
+    second: _hime3_107
+  - first:
+      213: -745961349019679231
+    second: _hime3_108
+  - first:
+      213: 5728199074538046161
+    second: _hime3_109
+  - first:
+      213: -3841404494422737270
+    second: _hime3_110
+  - first:
+      213: -405764188099120165
+    second: _hime3_111
+  - first:
+      213: 1078900288881196322
+    second: _hime3_0
+  - first:
+      213: 8369215344320284866
+    second: _hime3_1
+  - first:
+      213: -6444643701169078248
+    second: _hime3_2
+  - first:
+      213: -7800776464530828993
+    second: _hime3_3
+  - first:
+      213: -2203958716357390732
+    second: _hime3_4
+  - first:
+      213: -1951356781507353868
+    second: _hime3_5
+  - first:
+      213: 2822671028953572227
+    second: _hime3_6
+  - first:
+      213: 1383204699712753622
+    second: _hime3_7
+  - first:
+      213: 418236539778868586
+    second: _hime3_8
+  - first:
+      213: -4201718357280592993
+    second: _hime3_9
+  - first:
+      213: -4587029566735967266
+    second: _hime3_10
+  - first:
+      213: 7934861587710813945
+    second: _hime3_11
+  - first:
+      213: -3521867649161250360
+    second: _hime3_12
+  - first:
+      213: 2741509525911845211
+    second: _hime3_13
+  - first:
+      213: 1410866026522425400
+    second: _hime3_14
+  - first:
+      213: 619749218227095749
+    second: _hime3_15
+  - first:
+      213: -9128075441973367104
+    second: _hime3_16
+  - first:
+      213: 1525565619902313378
+    second: _hime3_17
+  - first:
+      213: 8470972780193467637
+    second: _hime3_18
+  - first:
+      213: 3150690332155150884
+    second: _hime3_19
+  - first:
+      213: 8373057322276076532
+    second: _hime3_20
+  - first:
+      213: 7603716220499591540
+    second: _hime3_21
+  - first:
+      213: -7899259201376187219
+    second: _hime3_22
+  - first:
+      213: -7564700277871999449
+    second: _hime3_23
+  - first:
+      213: -1468454638309401098
+    second: _hime3_24
+  - first:
+      213: 5037797293140963793
+    second: _hime3_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _hime3_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d74d2b81609fe00800000000000000
+      internalID: 1078900288881196322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c885fe730d652470800000000000000
+      internalID: 8369215344320284866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810cbdfe2b60096a0800000000000000
+      internalID: -6444643701169078248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f319963c2231eb390800000000000000
+      internalID: -7800776464530828993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_4
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e44eb7937f961e0800000000000000
+      internalID: -2203958716357390732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_5
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2643098536be4e0800000000000000
+      internalID: -1951356781507353868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_6
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383609e78542c2720800000000000000
+      internalID: 2822671028953572227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_7
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df870a8851223310800000000000000
+      internalID: 1383204699712753622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_8
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65ab91caefddc500800000000000000
+      internalID: 418236539778868586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_9
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6d0c6a6f70b5c0800000000000000
+      internalID: -4201718357280592993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_10
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1d7489e89750c0800000000000000
+      internalID: -4587029566735967266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_11
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f62565c29a4e1e60800000000000000
+      internalID: 7934861587710813945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_12
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9bdc16800df1fc0800000000000000
+      internalID: -3521867649161250360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_13
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b593350836ccb0620800000000000000
+      internalID: 2741509525911845211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_14
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83839801d27649310800000000000000
+      internalID: 1410866026522425400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_15
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8804261aac99800800000000000000
+      internalID: 619749218227095749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_16
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cee5368fbf825180800000000000000
+      internalID: -9128075441973367104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_17
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a373d739d5eb2510800000000000000
+      internalID: 1525565619902313378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_18
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc4f69ccd0fe8570800000000000000
+      internalID: 8470972780193467637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_19
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4228d5df92089bb20800000000000000
+      internalID: 3150690332155150884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_20
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbbf32b543133470800000000000000
+      internalID: 8373057322276076532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_21
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47101c7cd93d58960800000000000000
+      internalID: 7603716220499591540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_22
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8c31cb91306290800000000000000
+      internalID: -7899259201376187219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_23
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72604214d29c40790800000000000000
+      internalID: -7564700277871999449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_24
+      rect:
+        serializedVersion: 2
+        x: 4618
+        y: 0
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd1bc269400f9be0800000000000000
+      internalID: -1468454638309401098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _hime3_25
+      rect:
+        serializedVersion: 2
+        x: 4814
+        y: 0
+        width: 186
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1771c52f9d9e540800000000000000
+      internalID: 5037797293140963793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
