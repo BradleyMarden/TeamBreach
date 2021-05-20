@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     //Respawn
     public Transform m_StartPos;
 
+    private bool m_FreezeController = false;
+
 
 
     void Start()
@@ -34,12 +36,14 @@ public class PlayerController : MonoBehaviour
     {
         CheckMouseInput();
         CheckStates();
-        float y = Input.GetAxisRaw("Vertical");
-        float x = Input.GetAxisRaw("Horizontal");
-        float l_ForceX = x * m_Speed * Time.fixedDeltaTime;
-        float l_ForceY = y * m_Speed * Time.fixedDeltaTime;
-        m_RB.AddForce(new Vector2(l_ForceX, l_ForceY));
-
+        if (!m_FreezeController)
+        {
+            float y = Input.GetAxisRaw("Vertical");
+            float x = Input.GetAxisRaw("Horizontal");
+            float l_ForceX = x * m_Speed * Time.fixedDeltaTime;
+            float l_ForceY = y * m_Speed * Time.fixedDeltaTime;
+            m_RB.AddForce(new Vector2(l_ForceX, l_ForceY));
+        }
     }
 
 
@@ -83,11 +87,16 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Respawn() 
     {
+        transform.GetComponent<SpriteRenderer>().enabled = false;
+        m_FreezeController = true;
         yield return new WaitForSeconds(1);
         transform.position = m_StartPos.position;
         m_IsVolatile = false;
+        m_FreezeController = false;
+        transform.GetComponent<SpriteRenderer>().enabled = true;
+
     }
 
-  
+
 
 }
