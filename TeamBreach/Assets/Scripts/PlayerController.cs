@@ -31,9 +31,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float m_FuelUserRate;
     public float m_LerpSpeed;
     [SerializeField] float m_SlowDownAmount, m_SpeedUpAmount;
+
+    private Animator m_Animator;
     void Start()
     {
         m_RB = transform.GetComponent<Rigidbody2D>();
+        m_Animator = GetComponent<Animator>();
         Spawn();
     }
 
@@ -109,11 +112,13 @@ public class PlayerController : MonoBehaviour
                 Debug.LogError("Player has no state set!");
                 break;
             case PlayerState.DEFAULT:
+                m_Animator.SetInteger("State", 1);
                 m_Speed = m_NormalSpeed;
                 Time.timeScale = 1;
                 Time.fixedDeltaTime = Time.timeScale * .02f;
                 break;
             case PlayerState.FAST:
+                m_Animator.SetInteger("State", 2);
                 m_Speed = m_FastSpeed;
                 Time.timeScale = m_SpeedUpAmount;
                 Time.fixedDeltaTime = Time.timeScale * .02f;

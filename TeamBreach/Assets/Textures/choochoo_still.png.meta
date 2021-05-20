@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 7618bb187c48f724c93f88573d7deb81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4380323922211534815
+    second: choochoo_still_0
+  - first:
+      213: 5009215264431848640
+    second: choochoo_still_1
+  - first:
+      213: 4441508275710484769
+    second: choochoo_still_2
+  - first:
+      213: -5795491163366987784
+    second: choochoo_still_3
+  - first:
+      213: 566784847258489201
+    second: choochoo_still_4
+  - first:
+      213: -8690042850802374705
+    second: choochoo_still_5
+  - first:
+      213: 4803655988154670743
+    second: choochoo_still_6
+  - first:
+      213: 2973505053114787429
+    second: choochoo_still_7
+  - first:
+      213: 5245675168166499967
+    second: choochoo_still_8
+  - first:
+      213: 7517327209793460737
+    second: choochoo_still_9
+  - first:
+      213: 6824803814292904175
+    second: choochoo_still_10
+  - first:
+      213: -4086495549174034272
+    second: choochoo_still_11
+  - first:
+      213: -5348231850069265957
+    second: choochoo_still_12
+  - first:
+      213: 6549681442865067972
+    second: choochoo_still_13
+  - first:
+      213: 3128119043706369551
+    second: choochoo_still_14
+  - first:
+      213: -786434771741145659
+    second: choochoo_still_15
+  - first:
+      213: -7530042266786135169
+    second: choochoo_still_16
+  - first:
+      213: 5042318477055515236
+    second: choochoo_still_17
+  - first:
+      213: 5108003361334467072
+    second: choochoo_still_18
+  - first:
+      213: 700037571590404699
+    second: choochoo_still_19
+  - first:
+      213: -7655059512794747491
+    second: choochoo_still_20
+  - first:
+      213: 6073996525371406430
+    second: choochoo_still_21
+  - first:
+      213: 3389988223182871498
+    second: choochoo_still_22
+  - first:
+      213: 7476614533547484069
+    second: choochoo_still_23
+  - first:
+      213: 6874211648066816591
+    second: choochoo_still_24
+  - first:
+      213: 7362925512677986350
+    second: choochoo_still_25
+  - first:
+      213: -1988457693443120486
+    second: choochoo_still_26
+  - first:
+      213: 4008385021548016194
+    second: choochoo_still_27
+  - first:
+      213: 5299983197947245742
+    second: choochoo_still_28
+  - first:
+      213: 4824557962504764141
+    second: choochoo_still_29
+  - first:
+      213: 2042244970010961797
+    second: choochoo_still_30
+  - first:
+      213: 2024708162391717372
+    second: choochoo_still_31
+  - first:
+      213: -6798513190253650042
+    second: choochoo_still_32
+  - first:
+      213: 7357199709071550185
+    second: choochoo_still_33
+  - first:
+      213: -1770014891979942
+    second: choochoo_still_34
+  - first:
+      213: -7127334998855712276
+    second: choochoo_still_35
+  - first:
+      213: -6202229361359767648
+    second: choochoo_still_36
+  - first:
+      213: 7237090026265896524
+    second: choochoo_still_37
+  - first:
+      213: 5722319303403398117
+    second: choochoo_still_38
+  - first:
+      213: -111924527931872171
+    second: choochoo_still_39
+  - first:
+      213: 2648861460553382669
+    second: choochoo_still_40
+  - first:
+      213: -1637763654752168272
+    second: choochoo_still_41
+  - first:
+      213: 3093188746890579107
+    second: choochoo_still_42
+  - first:
+      213: 7372410313452300070
+    second: choochoo_still_43
+  - first:
+      213: -6017427633901887260
+    second: choochoo_still_44
+  - first:
+      213: 370085623629432436
+    second: choochoo_still_45
+  - first:
+      213: 6930472449182235197
+    second: choochoo_still_46
+  - first:
+      213: 3872968855597670191
+    second: choochoo_still_47
+  - first:
+      213: 270250601067032144
+    second: choochoo_still_48
+  - first:
+      213: -2851246867477260065
+    second: choochoo_still_49
+  - first:
+      213: 6452488578221336762
+    second: choochoo_still_50
+  - first:
+      213: 1103199106810457719
+    second: choochoo_still_51
+  - first:
+      213: -1013380045994761345
+    second: choochoo_still_52
+  - first:
+      213: 5912904020099438600
+    second: choochoo_still_53
+  - first:
+      213: 5670695116414955310
+    second: choochoo_still_54
+  - first:
+      213: -742912738629411940
+    second: choochoo_still_55
+  - first:
+      213: -3142573638433939456
+    second: choochoo_still_56
+  - first:
+      213: -8163324898981913257
+    second: choochoo_still_57
+  - first:
+      213: 8731367521227980974
+    second: choochoo_still_58
+  - first:
+      213: 5775642718743281315
+    second: choochoo_still_59
+  - first:
+      213: -983172773752049008
+    second: choochoo_still_60
+  - first:
+      213: -4182611024881363733
+    second: choochoo_still_61
+  - first:
+      213: 6320724661155577570
+    second: choochoo_still_62
+  - first:
+      213: 3381858837067790708
+    second: choochoo_still_63
+  - first:
+      213: 8738256676235824524
+    second: choochoo_still_64
+  - first:
+      213: 5469360038684599364
+    second: choochoo_still_65
+  - first:
+      213: -8747773900695598554
+    second: choochoo_still_66
+  - first:
+      213: 4649735543005351679
+    second: choochoo_still_67
+  - first:
+      213: 4590960855621958732
+    second: choochoo_still_68
+  - first:
+      213: -1652674097774474074
+    second: choochoo_still_69
+  - first:
+      213: 5335068103092502757
+    second: choochoo_still_70
+  - first:
+      213: 5786730913589316244
+    second: choochoo_still_71
+  - first:
+      213: -5064477611523560680
+    second: choochoo_still_72
+  - first:
+      213: 8761632870467938221
+    second: choochoo_still_73
+  - first:
+      213: -3450842068919681385
+    second: choochoo_still_74
+  - first:
+      213: -5198426495880335975
+    second: choochoo_still_75
+  - first:
+      213: -4249739248044473372
+    second: choochoo_still_76
+  - first:
+      213: -3343672719000685140
+    second: choochoo_still_77
+  - first:
+      213: 6361535261664364685
+    second: choochoo_still_78
+  - first:
+      213: -6840163100754488789
+    second: choochoo_still_79
+  - first:
+      213: 7405164351324978441
+    second: choochoo_still_80
+  - first:
+      213: -5558179407444065818
+    second: choochoo_still_81
+  - first:
+      213: 8398361325990192605
+    second: choochoo_still_82
+  - first:
+      213: -2039058947658433866
+    second: choochoo_still_83
+  - first:
+      213: -1072823768910814680
+    second: choochoo_still_84
+  - first:
+      213: -3050879784044504958
+    second: choochoo_still_85
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 550
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: choochoo_still_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5456
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7709836690acc30800000000000000
+      internalID: 4380323922211534815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_1
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 5456
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccbce73ebe448540800000000000000
+      internalID: 5009215264431848640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_2
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 5456
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1216ea0ae3863ad30800000000000000
+      internalID: 4441508275710484769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2728
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f768942e77429fa0800000000000000
+      internalID: -5795491163366987784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_4
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 2728
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1719aecc0df9dd700800000000000000
+      internalID: 566784847258489201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_5
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 2728
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7600ba114c66780800000000000000
+      internalID: -8690042850802374705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e132d9ba30aa240800000000000000
+      internalID: 4803655988154670743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_7
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 0
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5666cbc6713044920800000000000000
+      internalID: 2973505053114787429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: choochoo_still_8
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 0
+        width: 1756
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76d6adc5c16cc840800000000000000
+      internalID: 5245675168166499967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 68eae2f29f9991048b192fbbfbd6d908
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
