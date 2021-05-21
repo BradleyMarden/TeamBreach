@@ -4,14 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
-    
     //Movement Controlls
     [SerializeField]
     private float m_Speed = 5000, m_NormalSpeed = 5000, m_FastSpeed = 10000, m_SlowSpeed = 2000;
     private Rigidbody2D m_RB;
     private bool m_IsFacingLeft = false;
     private SpriteRenderer m_SpriteRenderer;
-
 
     //Player states NTS: CHNAGE TO PRIVATE
     public enum PlayerState {NONE, DEFAULTIDLE,DEFAULT, FASTIDLE, FAST, SLOWIDLE, SLOW, STUNNED, VOLATILE};
@@ -36,6 +34,27 @@ public class PlayerController : MonoBehaviour
     private FMOD.Studio.EventInstance m_CharacterInstance;
     [Tooltip("Enter the event path e.g: event:/New Event")]
     [SerializeField] string m_CharacterEvent;
+
+
+    private FMOD.Studio.EventInstance m_ExtinguishInstance;
+    [Tooltip("Enter the event path e.g: event:/New Event")]
+    [SerializeField] string m_ExtinguishEvent;
+
+    private FMOD.Studio.EventInstance m_HeadbuttInstance;
+    [Tooltip("Enter the event path e.g: event:/New Event")]
+    [SerializeField] string m_HeadbuttEvent;
+
+
+    private FMOD.Studio.EventInstance m_WallContactInstance;
+    [Tooltip("Enter the event path e.g: event:/New Event")]
+    [SerializeField] string m_WallContactEvent;
+
+
+    private FMOD.Studio.EventInstance m_PlayerAmbienceInstance;
+    [Tooltip("Enter the event path e.g: event:/New Event")]
+    [SerializeField] string m_PlayerAmbienceEvent;
+
+
     //FUEL SLIDER
     [SerializeField] Image m_FuelBar;
     [SerializeField] Slider m_Slider;
@@ -43,6 +62,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float m_FuelUserRate;
     public float m_LerpSpeed;
 
+    bool isStateFast = false;
+    bool isStateSlow = false;
+    bool isStateDefault = false;
 
     //Control Engine Speed
     [SerializeField] float m_SlowDownAmount, m_SpeedUpAmount;
@@ -53,16 +75,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject m_SmokeEffect;
     [SerializeField] GameObject m_StarEffect;
     [SerializeField] GameObject m_ClockEffect;
-
+    PlayerState m_OldPLayerState;
     private bool m_HasCollectable = false;
     void Start()
     {
+        //FMODUnity.RuntimeManager.StudioSystem.setParameterByName("State", 3f);
         m_CharacterInstance = FMODUnity.RuntimeManager.CreateInstance(m_CharacterEvent);
-        m_CharacterInstance.setParameterByName("State", 0f);
-
         m_CharacterInstance.start();
+        m_CharacterInstance.release();
 
-        m_RB = GetComponent<Rigidbody2D>();
+        m_ExtinguishInstance = FMODUnity.RuntimeManager.CreateInstance(m_ExtinguishEvent);
+        m_HeadbuttInstance = FMODUnity.RuntimeManager.CreateInstance(m_HeadbuttEvent);
+        m_WallContactInstance = FMODUnity.RuntimeManager.CreateInstance(m_WallContactEvent);
+        m_PlayerAmbienceInstance = FMODUnity.RuntimeManager.CreateInstance(m_PlayerAmbienceEvent);
+        m_PlayerAmbienceInstance.start();
+        m_PlayerAmbienceInstance.release();
+               m_RB = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         Spawn();
@@ -74,6 +102,163 @@ public class PlayerController : MonoBehaviour
 
       if (m_PlayerLife!= PlayerLife.DEAD) { SetFuelAmount();}
 
+      if(m_PlayerState != m_OldPLayerState) 
+        {
+            m_CharacterInstance = FMODUnity.RuntimeManager.CreateInstance(m_CharacterEvent);
+            m_ExtinguishInstance = FMODUnity.RuntimeManager.CreateInstance(m_ExtinguishEvent);
+            m_HeadbuttInstance = FMODUnity.RuntimeManager.CreateInstance(m_HeadbuttEvent);
+            m_WallContactInstance = FMODUnity.RuntimeManager.CreateInstance(m_WallContactEvent);
+
+            switch (m_PlayerState)
+            {
+                case PlayerState.NONE:
+                    m_Speed = 0;
+                    Debug.LogError("Player has no state set!");
+                    StandardSpeed();
+                    break;
+
+                case PlayerState.DEFAULTIDLE:
+                    m_Animator.SetInteger("State", 1);
+                    
+                    StandardSpeed();
+                    if (!isStateDefault)
+                    {
+                        m_PlayerAmbienceInstance.setParameterByName("State", 0);
+                        m_PlayerAmbienceInstance.start();
+                        m_PlayerAmbienceInstance.release();
+                    }
+                    isStateSlow = false;
+                    isStateFast = false;
+                    break;
+
+                case PlayerState.DEFAULT:
+                    m_Animator.SetInteger("State", 2);
+
+                    if (!isStateDefault)
+                    {
+                        m_PlayerAmbienceInstance.setParameterByName("State", 0);
+                        m_PlayerAmbienceInstance.start();
+                        m_PlayerAmbienceInstance.release();
+                    }
+                    isStateSlow = false;
+                    isStateFast = false;
+                    isStateDefault = true;
+                    m_Speed = m_NormalSpeed;
+                    StandardSpeed();
+                    break;
+
+                case PlayerState.FASTIDLE:
+                    m_Animator.SetInteger("State", 3);
+                    if (!isStateFast)
+                    {
+                       
+                        m_CharacterInstance.setParameterByName("State", 1f);
+                        m_CharacterInstance.start();
+                        m_CharacterInstance.release();
+                        m_PlayerAmbienceInstance.setParameterByName("State", 1);
+                        m_PlayerAmbienceInstance.start();
+                        m_PlayerAmbienceInstance.release();
+                    }
+
+                    isStateSlow = false;
+                    isStateDefault = false;
+
+                    SpeedUp();
+                    break;
+
+                case PlayerState.FAST:
+                    m_Animator.SetInteger("State", 4);
+                    if (!isStateFast)
+                    {
+
+                        m_CharacterInstance.setParameterByName("State", 1f);
+                        m_CharacterInstance.start();
+                        m_CharacterInstance.release();
+                        m_PlayerAmbienceInstance.setParameterByName("State", 1);
+                        m_PlayerAmbienceInstance.start();
+                        m_PlayerAmbienceInstance.release();
+                    }
+                    isStateFast = true;
+                    isStateSlow = false;
+                    isStateDefault = false;
+
+                    m_Speed = m_FastSpeed;
+                    SpeedUp();
+                    break;
+                case PlayerState.SLOWIDLE:
+                    m_Animator.SetInteger("State", 5);
+                    if (!isStateSlow)
+                    {
+                       
+                        m_CharacterInstance.setParameterByName("State", 2f);
+                        m_CharacterInstance.start();
+                        m_CharacterInstance.release();
+                        m_PlayerAmbienceInstance.setParameterByName("State", 2);
+                        m_PlayerAmbienceInstance.start();
+                        m_PlayerAmbienceInstance.release();
+                    }
+                    isStateFast = false;
+                    isStateDefault = false;
+
+
+                    SlowMo();
+                    break;
+
+                case PlayerState.SLOW:
+                    m_Animator.SetInteger("State", 6);
+                    if (!isStateSlow)
+                    {
+
+                        m_CharacterInstance.setParameterByName("State", 2f);
+                        m_CharacterInstance.start();
+                        m_CharacterInstance.release();
+                        m_PlayerAmbienceInstance.setParameterByName("State", 2);
+                        m_PlayerAmbienceInstance.start();
+                        m_PlayerAmbienceInstance.release();
+                    }
+                    isStateSlow = true;
+                    isStateFast = false;
+                    isStateDefault = false;
+
+                    m_Speed = m_SlowSpeed;
+                    SlowMo();
+                    break;
+                case PlayerState.STUNNED:
+                    isStateSlow = false;
+                    isStateFast = false;
+                    isStateDefault = false;
+                    m_PlayerAmbienceInstance.setParameterByName("State", 2);
+                    m_PlayerAmbienceInstance.start();
+                    m_PlayerAmbienceInstance.release();
+                    m_Animator.SetInteger("State", 5);
+                    StartCoroutine(PlayStun());
+                    m_CharacterInstance.start();
+                    m_CharacterInstance.release();
+                    SlowMo();
+
+                    break;
+                case PlayerState.VOLATILE:
+                    m_Animator.SetInteger("State", 7);
+                    isStateSlow = false;
+                    isStateFast = false;
+                    isStateDefault = false;
+
+                    SpeedUp();
+                    m_CharacterInstance.setParameterByName("State", 3f);
+                    m_CharacterInstance.start();
+                    m_CharacterInstance.release();
+
+
+                    m_PlayerAmbienceInstance.setParameterByName("State", 3);
+                    m_PlayerAmbienceInstance.start();
+                    m_PlayerAmbienceInstance.release();
+                    //StartCoroutine(PlayStun());
+                    break;
+
+            }
+
+            m_OldPLayerState = m_PlayerState;
+        }
 
     }
     private void FixedUpdate()
@@ -123,6 +308,9 @@ public class PlayerController : MonoBehaviour
         m_IsVolatile = false;
         m_FreezeController = false;
         transform.GetComponent<SpriteRenderer>().enabled = true;
+        isStateSlow = false;
+        isStateFast = false;
+        isStateDefault = false;
     }
 
     void CheckMouseInput() 
@@ -133,7 +321,14 @@ public class PlayerController : MonoBehaviour
 
         if (m_IsMoving && m_PlayerState != PlayerState.VOLATILE)
         {
-            if (Input.GetKey(KeyCode.Mouse0)) { m_PlayerState = PlayerState.FASTIDLE; }
+            if (Input.GetKey(KeyCode.Mouse0)) 
+            { 
+                m_PlayerState = PlayerState.FASTIDLE;
+               // m_CharacterInstance = FMODUnity.RuntimeManager.CreateInstance(m_CharacterEvent);
+               // m_CharacterInstance.start();
+                //m_CharacterInstance.release();
+
+            }
             else if (Input.GetKey(KeyCode.Mouse1)) { m_PlayerState = PlayerState.SLOWIDLE; }
             else { m_PlayerState = PlayerState.DEFAULTIDLE; }
             if (m_PlayerState == PlayerState.DEFAULTIDLE)
@@ -153,7 +348,12 @@ public class PlayerController : MonoBehaviour
         }
         else if (m_PlayerState != PlayerState.VOLATILE)
         {
-        if (Input.GetKey(KeyCode.Mouse0)) { m_PlayerState = PlayerState.FASTIDLE; }
+            
+        if (Input.GetKey(KeyCode.Mouse0)) 
+            { 
+                m_PlayerState = PlayerState.FASTIDLE;
+               
+            }
             else if (Input.GetKey(KeyCode.Mouse1)) { m_PlayerState = PlayerState.SLOWIDLE; }
             else { m_PlayerState = PlayerState.DEFAULTIDLE; }
         }
@@ -164,9 +364,9 @@ public class PlayerController : MonoBehaviour
 
     void PlayFootstep() 
     {
-        m_FootstepInstance = FMODUnity.RuntimeManager.CreateInstance(m_FootstepEvent);
+       m_FootstepInstance = FMODUnity.RuntimeManager.CreateInstance(m_FootstepEvent);
         m_FootstepInstance.start();
-       // m_FootstepInstance.release();
+        m_FootstepInstance.release();
         
     }
   
@@ -174,7 +374,14 @@ public class PlayerController : MonoBehaviour
     void SetFuelAmount() 
     {
         //Currently when the player dies the fuel amount is reset to max. would like lerp to zero when dead.
-        if (m_CurrentFuel <= 0) { StartCoroutine(Respawn()); }
+        if (m_CurrentFuel <= 0) {
+
+            m_ExtinguishInstance.setParameterByName("State", 1f);
+            m_ExtinguishInstance.start();
+            m_ExtinguishInstance.release();
+            StartCoroutine(Respawn()); 
+
+        }
 
         m_CurrentFuel -= m_FuelUserRate * Time.deltaTime; 
         //m_FuelBar.GetComponent<Renderer>().material.SetFloat("_Fuel", m_CurrentFuel);
@@ -182,11 +389,19 @@ public class PlayerController : MonoBehaviour
         m_Slider.value = m_CurrentFuel / m_MaxFuel;
         
     }
+
+    void FastModeStart() 
+    {
+       // m_CharacterInstance = FMODUnity.RuntimeManager.CreateInstance(m_CharacterEvent);
+        //m_CharacterInstance.setParameterByName("State", 1f);
+        //m_CharacterInstance.start();
+       // m_CharacterInstance.release();
+    }
     
 
     void CheckStates() 
     {
-        switch (m_PlayerState) 
+       /* switch (m_PlayerState) 
         {
             case PlayerState.NONE:
                 m_Speed = 0;
@@ -197,7 +412,7 @@ public class PlayerController : MonoBehaviour
             case PlayerState.DEFAULTIDLE:
                 m_Animator.SetInteger("State", 1);
                 m_CharacterInstance.setParameterByName("State", 0f);
-
+               
                 StandardSpeed();
                 break;
 
@@ -211,14 +426,17 @@ public class PlayerController : MonoBehaviour
             
             case PlayerState.FASTIDLE:
                 m_Animator.SetInteger("State", 3);
-                m_CharacterInstance.setParameterByName("State", 1f);
 
-                SpeedUp();
+               
+
+                 SpeedUp();
                 break;
           
             case PlayerState.FAST:
                 m_Animator.SetInteger("State", 4);
                 m_CharacterInstance.setParameterByName("State", 1f);
+                played = false;
+
 
                 m_Speed = m_FastSpeed;
                 SpeedUp();
@@ -226,7 +444,7 @@ public class PlayerController : MonoBehaviour
             case PlayerState.SLOWIDLE:
                 m_Animator.SetInteger("State", 5);
                 m_CharacterInstance.setParameterByName("State", 2f);
-
+               
                 SlowMo();
                 break;
 
@@ -248,7 +466,7 @@ public class PlayerController : MonoBehaviour
                 //StartCoroutine(PlayStun());
                 break;
 
-        }
+        }*/
 
         switch (m_PlayerLife) 
         {
@@ -267,14 +485,18 @@ public class PlayerController : MonoBehaviour
     IEnumerator PlayStun() 
     {
         m_FreezeController = true;
+
         m_StarEffect.SetActive(true);
+        //m_HeadbuttInstance.setParameterByName("State", 0f);
+        m_HeadbuttInstance.start();
+        m_HeadbuttInstance.release();
         yield return new WaitForSeconds(m_StunTime);
-            m_FreezeController = false;
+        m_FreezeController = false;
             Debug.LogError("dawd");
         m_StarEffect.SetActive(false);
 
         m_PlayerState = PlayerState.DEFAULTIDLE;
-            StopAllCoroutines();
+           // StopAllCoroutines();
 
 
     }
@@ -282,16 +504,27 @@ public class PlayerController : MonoBehaviour
     public void SetVolatile() { m_PlayerState = PlayerState.VOLATILE; }
     public void HasCollidedWithWall(GameObject p_Object) 
     {
-        if (m_IsVolatile && p_Object.transform.tag != "Collectable") { StartCoroutine(Respawn()); Debug.LogError("You Died!"); }
-        if (m_PlayerState == PlayerState.FAST) { m_PlayerState = PlayerState.STUNNED; }
+        if (m_IsVolatile && p_Object.transform.tag != "Collectable") 
+        {
+            m_ExtinguishInstance.setParameterByName("State", 3f);
+            m_ExtinguishInstance.start();
+            m_ExtinguishInstance.release();
+            StartCoroutine(Respawn()); 
+            Debug.LogError("You Died!"); 
+        }
+        if (m_PlayerState == PlayerState.FAST) 
+        {m_PlayerState = PlayerState.STUNNED;}
         if (m_PlayerState == PlayerState.DEFAULT) { Debug.LogError("Too Fast??"); }
         if (m_PlayerState == PlayerState.SLOW) { Debug.LogError("Wow, you must be bad, huh..."); }
+        m_WallContactInstance.start();
+        m_WallContactInstance.release();
 
 
     }
 
     IEnumerator Respawn() 
     {
+
         m_PlayerLife = PlayerLife.DEAD;
         m_PlayerState = PlayerState.DEFAULTIDLE;
         m_SmokeEffect.SetActive(true);

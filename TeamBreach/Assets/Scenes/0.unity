@@ -38699,6 +38699,7 @@ GameObject:
   - component: {fileID: 1752227593}
   - component: {fileID: 1752227594}
   - component: {fileID: 1752227595}
+  - component: {fileID: 1752227596}
   m_Layer: 5
   m_Name: Player
   m_TagString: Player
@@ -38834,17 +38835,21 @@ MonoBehaviour:
   m_PlayerState: 4
   m_PlayerLife: 0
   m_IsVolatile: 0
-  m_StunTime: 3
+  m_StunTime: 1.5
   m_RespawmTime: 3
   m_EngineSpeedFast: 0
   m_StartPos: {fileID: 1206304778}
   m_FootstepEvent: event:/Footsteps
-  m_CharacterEvent: event:/Footsteps
+  m_CharacterEvent: event:/Ignition
+  m_ExtinguishEvent: event:/Extinguish
+  m_HeadbuttEvent: event:/Headbutt
+  m_WallContactEvent: event:/Wall Contact
+  m_PlayerAmbienceEvent: event:/Character Ambience
   m_FuelBar: {fileID: 1365600332}
   m_Slider: {fileID: 671860851}
   m_MaxFuel: 100
   m_CurrentFuel: 100
-  m_FuelUserRate: 1
+  m_FuelUserRate: 10
   m_LerpSpeed: 5
   m_SlowDownAmount: 0.5
   m_SpeedUpAmount: 1.5
@@ -38887,6 +38892,20 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!114 &1752227596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752227588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1 &1772166600
 GameObject:
   m_ObjectHideFlags: 0
