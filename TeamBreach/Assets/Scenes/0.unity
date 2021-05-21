@@ -10034,7 +10034,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &282073290
 Transform:
   m_ObjectHideFlags: 0
@@ -38705,6 +38705,7 @@ MonoBehaviour:
   m_RespawmTime: 3
   m_EngineSpeedFast: 0
   m_StartPos: {fileID: 1206304778}
+  m_FootstepEvent: event:/Footsteps
   m_FuelBar: {fileID: 1365600332}
   m_Slider: {fileID: 671860851}
   m_MaxFuel: 100
