@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     private Animator m_Animator;
 
     [SerializeField] GameObject m_SmokeEffect;
+    [SerializeField] GameObject m_StarEffect;
 
     private bool m_HasCollectable = false;
     void Start()
@@ -238,10 +239,13 @@ public class PlayerController : MonoBehaviour
     IEnumerator PlayStun() 
     {
         m_FreezeController = true;
+        m_StarEffect.SetActive(true);
         yield return new WaitForSeconds(m_StunTime);
             m_FreezeController = false;
             Debug.LogError("dawd");
-            m_PlayerState = PlayerState.DEFAULTIDLE;
+        m_StarEffect.SetActive(false);
+
+        m_PlayerState = PlayerState.DEFAULTIDLE;
             StopAllCoroutines();
 
 
@@ -261,6 +265,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator Respawn() 
     {
         m_PlayerLife = PlayerLife.DEAD;
+        m_PlayerState = PlayerState.DEFAULTIDLE;
         m_SmokeEffect.SetActive(true);
         AddDeath();
 
@@ -268,7 +273,6 @@ public class PlayerController : MonoBehaviour
         m_FreezeController = true;
         yield return new WaitForSeconds(m_RespawmTime);
         m_SmokeEffect.SetActive(false);
-
         Spawn();
 
     }
