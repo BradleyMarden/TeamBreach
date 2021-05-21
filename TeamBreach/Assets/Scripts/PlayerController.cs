@@ -77,6 +77,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject m_ClockEffect;
     PlayerState m_OldPLayerState;
     public bool m_HasCollectable = false;
+
+    private float m_TimeTaken;
+    private float m_TimeAtStart;
     void Start()
     {
         //FMODUnity.RuntimeManager.StudioSystem.setParameterByName("State", 3f);
@@ -311,6 +314,7 @@ public class PlayerController : MonoBehaviour
         isStateSlow = false;
         isStateFast = false;
         isStateDefault = false;
+        m_TimeAtStart = Time.time;
     }
 
     void CheckMouseInput() 
@@ -496,26 +500,43 @@ public class PlayerController : MonoBehaviour
         m_StarEffect.SetActive(false);
 
         m_PlayerState = PlayerState.DEFAULTIDLE;
-           // StopAllCoroutines();
-
+        // StopAllCoroutines();
+        if (PlayerPrefs.HasKey("Stun")) { PlayerPrefs.SetFloat("Stun", PlayerPrefs.GetFloat("Stun") + 1); }
+        else { PlayerPrefs.SetFloat("Stun", 1); }
 
     }
 
-    public void SetVolatile() { m_PlayerState = PlayerState.VOLATILE; m_HasCollectable = true; }
+    public void SetVolatile() 
+    { 
+        m_PlayerState = PlayerState.VOLATILE;
+        m_HasCollectable = true;
+        if (PlayerPrefs.HasKey("Volatile")) { PlayerPrefs.SetFloat("Volatile", PlayerPrefs.GetFloat("Volatile") + 1); }
+        else { PlayerPrefs.SetFloat("Volatile", 1); }
+
+    }
+    public void Extinguish() 
+    {
+
+        m_ExtinguishInstance.setParameterByName("State", 3f);
+        m_ExtinguishInstance.start();
+        m_ExtinguishInstance.release();
+        StartCoroutine(Respawn());
+    }
     public void HasCollidedWithWall(GameObject p_Object) 
     {
         if (m_IsVolatile && p_Object.transform.tag != "Collectable") 
         {
-            m_ExtinguishInstance.setParameterByName("State", 3f);
-            m_ExtinguishInstance.start();
-            m_ExtinguishInstance.release();
-            StartCoroutine(Respawn()); 
+            Extinguish();
+
             Debug.LogError("You Died!"); 
         }
         if (m_PlayerState == PlayerState.FAST) 
         {m_PlayerState = PlayerState.STUNNED;}
         if (m_PlayerState == PlayerState.DEFAULT) { Debug.LogError("Too Fast??"); }
         if (m_PlayerState == PlayerState.SLOW) { Debug.LogError("Wow, you must be bad, huh..."); }
+
+        if (PlayerPrefs.HasKey("WallContact")) { PlayerPrefs.SetFloat("WallContact", PlayerPrefs.GetFloat("WallContact") + 1); }
+        else { PlayerPrefs.SetFloat("WallContact", 1); }
         m_WallContactInstance.start();
         m_WallContactInstance.release();
 
@@ -541,9 +562,12 @@ public class PlayerController : MonoBehaviour
         Spawn();
 
     }
-    public void BreakThroughWall() 
+    public void BreakThroughWall()
     {
         StopAllCoroutines();
+
+        if (PlayerPrefs.HasKey("Doors")) { PlayerPrefs.SetFloat("Doors", PlayerPrefs.GetFloat("Doors") + 1); }
+        else { PlayerPrefs.SetFloat("Doors", 1); }
         m_ExtinguishInstance.setParameterByName("State", 3f);
         m_ExtinguishInstance.start();
         m_ExtinguishInstance.release();
@@ -557,6 +581,46 @@ public class PlayerController : MonoBehaviour
         isStateSlow = false;
         isStateFast = false;
         isStateDefault = false;
+        m_TimeTaken = Time.time - m_TimeAtStart;
+        PlayerPrefs.SetFloat("LatestTime", m_TimeTaken);
+
+        //SET FASTEST TIME
+        if (PlayerPrefs.HasKey("Fastest Time"))
+        {
+            float fTime = PlayerPrefs.GetFloat("Fastest Time");
+            if (m_TimeTaken < fTime) { PlayerPrefs.SetFloat("Fastest Time", m_TimeTaken); }
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("Fastest Time", m_TimeTaken);
+        }
+
+
+        //SET TOTAL TIME PLAYED
+        if (PlayerPrefs.HasKey("Total Time"))
+        {
+
+            float tTime = PlayerPrefs.GetFloat("Total Time", m_TimeTaken);
+            PlayerPrefs.SetFloat("Total Time", tTime + m_TimeTaken);
+
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("Total Time", m_TimeTaken);
+
+        }
+        Debug.Log("Time taken: " + m_TimeTaken);
+        Debug.Log("Total time played: " + PlayerPrefs.GetFloat("Total Time", m_TimeTaken));
+        Debug.Log("Fastest Time: " + PlayerPrefs.GetFloat("Fastest Time"));
+        Debug.Log("Deaths: " + PlayerPrefs.GetFloat("Deaths"));
+        Debug.Log("Collision with teh walls: " + PlayerPrefs.GetFloat("WallContact"));
+        Debug.Log("Been Volatile: " + PlayerPrefs.GetFloat("Volatile"));
+        Debug.Log("Doors exploded: " + PlayerPrefs.GetFloat("Doors"));
+        Debug.Log("Stuns: " + PlayerPrefs.GetFloat("Stun"));
+
+
+
+
     }
     void AddDeath() 
     {

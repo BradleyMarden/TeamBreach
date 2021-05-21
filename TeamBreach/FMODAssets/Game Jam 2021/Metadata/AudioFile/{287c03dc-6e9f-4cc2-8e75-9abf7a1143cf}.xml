@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{287c03dc-6e9f-4cc2-8e75-9abf7a1143cf}">
+		<property name="assetPath">
+			<value>Game Jam Music Comp With Atmos.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>736</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a8cba978-19e0-4daa-8f4f-167b7187abee}</destination>
+		</relationship>
+	</object>
+</objects>
