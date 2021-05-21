@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
 
     //FMOD
     private FMOD.Studio.EventInstance i;
+    [Tooltip ("Enter the event path e.g: event:/New Event")]
+    [SerializeField] string m_FootstepEvent;
 
     //FUEL SLIDER
     [SerializeField] Image m_FuelBar;
@@ -152,7 +154,7 @@ public class PlayerController : MonoBehaviour
 
     void PlayFootstep() 
     {
-        i = FMODUnity.RuntimeManager.CreateInstance("event:/New Event 2");
+        i = FMODUnity.RuntimeManager.CreateInstance(m_FootstepEvent);
         i.start();
         i.release();
         
