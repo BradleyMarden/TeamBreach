@@ -545,6 +545,12 @@ public class PlayerController : MonoBehaviour
 
             Debug.LogError("You Died!"); 
         }
+        if (p_Object.transform.tag == "Enemy")
+        {
+            Extinguish();
+
+            Debug.LogError("You Died!");
+        }
         if (m_PlayerState == PlayerState.FAST) 
         {m_PlayerState = PlayerState.STUNNED;}
         if (m_PlayerState == PlayerState.DEFAULT) { Debug.LogError("Too Fast??"); }
