@@ -8,7 +8,7 @@ public class waterTrigger : MonoBehaviour
     void Start()
     {
         
-    }dded
+    }
 
     // Update is called once per frame
     void Update()
