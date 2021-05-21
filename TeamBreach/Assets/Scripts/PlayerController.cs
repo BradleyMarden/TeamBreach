@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject m_StarEffect;
     [SerializeField] GameObject m_ClockEffect;
     PlayerState m_OldPLayerState;
-    private bool m_HasCollectable = false;
+    public bool m_HasCollectable = false;
     void Start()
     {
         //FMODUnity.RuntimeManager.StudioSystem.setParameterByName("State", 3f);
@@ -501,7 +501,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void SetVolatile() { m_PlayerState = PlayerState.VOLATILE; }
+    public void SetVolatile() { m_PlayerState = PlayerState.VOLATILE; m_HasCollectable = true; }
     public void HasCollidedWithWall(GameObject p_Object) 
     {
         if (m_IsVolatile && p_Object.transform.tag != "Collectable") 
@@ -529,6 +529,7 @@ public class PlayerController : MonoBehaviour
         m_PlayerState = PlayerState.DEFAULTIDLE;
         m_SmokeEffect.SetActive(true);
         m_ClockEffect.SetActive(true);
+        m_HasCollectable = false;
         AddDeath();
 
         transform.GetComponent<SpriteRenderer>().enabled = false;
@@ -540,7 +541,23 @@ public class PlayerController : MonoBehaviour
         Spawn();
 
     }
-
+    public void BreakThroughWall() 
+    {
+        StopAllCoroutines();
+        m_ExtinguishInstance.setParameterByName("State", 3f);
+        m_ExtinguishInstance.start();
+        m_ExtinguishInstance.release();
+        m_SmokeEffect.SetActive(true);
+        m_HasCollectable = false;
+        m_PlayerState = PlayerState.DEFAULTIDLE;
+        m_PlayerLife = PlayerLife.ALIVE;
+        m_CurrentFuel = m_MaxFuel;
+        m_IsVolatile = false;
+        m_FreezeController = false;
+        isStateSlow = false;
+        isStateFast = false;
+        isStateDefault = false;
+    }
     void AddDeath() 
     {
         if (PlayerPrefs.HasKey("Deaths")) { PlayerPrefs.SetFloat("Deaths", PlayerPrefs.GetFloat("Deaths") + 1); }
