@@ -13,7 +13,7 @@ public class LerpToPos : MonoBehaviour
     float rSpeed;
     void Start()
     {
-        transform.position = Point1.transform.position;
+        //transform.position = Point1.transform.position;
     }
 
     // Update is called once per frame
