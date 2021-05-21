@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d67e4e4a-97af-49c7-a0e9-87ce1c22d748}">
+		<property name="assetPath">
+			<value>Slow Mode Loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>42.105260770975057</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a8cba978-19e0-4daa-8f4f-167b7187abee}</destination>
+		</relationship>
+	</object>
+</objects>
