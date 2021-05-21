@@ -146,6 +146,9 @@
 		<property name="length">
 			<value>3</value>
 		</property>
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -212,6 +215,9 @@
 		<property name="length">
 			<value>3</value>
 		</property>
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -244,6 +250,9 @@
 	<object class="SingleSound" id="{3f125e8b-f007-424b-ac15-59b5ff7ad297}">
 		<property name="length">
 			<value>3</value>
+		</property>
+		<property name="volume">
+			<value>-7</value>
 		</property>
 		<property name="looping">
 			<value>true</value>

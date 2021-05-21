@@ -126,6 +126,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3756bf20-e322-4e8c-9b5d-8ca93ceb2357}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -151,7 +154,7 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>4</value>
+			<value>2.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{21f3a5c1-93e8-48c2-817a-3b5258747357}">
