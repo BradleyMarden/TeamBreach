@@ -24,7 +24,6 @@ public class OpenWithKEy : MonoBehaviour
             {
                 collision.transform.GetComponent<PlayerController>().BreakThroughWall();
                 transform.gameObject.SetActive(false);
-
             }
         }
     }

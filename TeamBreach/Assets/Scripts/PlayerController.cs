@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class PlayerController : MonoBehaviour
 {
     //Movement Controlls
@@ -541,6 +543,9 @@ public class PlayerController : MonoBehaviour
     }
     public void HasCollidedWithWall(GameObject p_Object) 
     {
+        m_WallContactInstance.start();
+        m_WallContactInstance.release();
+
         if (m_IsVolatile && p_Object.transform.tag != "Collectable") 
         {
             Extinguish();
@@ -558,6 +563,8 @@ public class PlayerController : MonoBehaviour
 
             hasKey = true;
             Key.SetActive(false);
+            SceneManager.LoadScene("end");
+
         }
         if (m_PlayerState == PlayerState.FAST) 
         {m_PlayerState = PlayerState.STUNNED;}
@@ -566,9 +573,7 @@ public class PlayerController : MonoBehaviour
 
         if (PlayerPrefs.HasKey("WallContact")) { PlayerPrefs.SetFloat("WallContact", PlayerPrefs.GetFloat("WallContact") + 1); }
         else { PlayerPrefs.SetFloat("WallContact", 1); }
-        m_WallContactInstance.start();
-        m_WallContactInstance.release();
-
+       
 
     }
 

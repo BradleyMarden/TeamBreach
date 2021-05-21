@@ -25,7 +25,7 @@ public class controllAnim : MonoBehaviour
     public TMP_Text s;
     public Sprite fuze;
 
-
+    public bool window = false;
 
 
 
@@ -35,7 +35,18 @@ public class controllAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            window = !window;
+            if (window)
+            {
+                Showstats();
+            }
+            else
+            {
+                Close();
+            }
+        }
     }
 
 
