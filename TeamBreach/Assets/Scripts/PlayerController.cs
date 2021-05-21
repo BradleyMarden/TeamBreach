@@ -55,6 +55,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] string m_PlayerAmbienceEvent;
 
 
+    private FMOD.Studio.EventInstance m_MusicInstance;
+    [Tooltip("Enter the event path e.g: event:/New Event")]
+    [SerializeField] string m_MusicEvent;
+
     //FUEL SLIDER
     [SerializeField] Image m_FuelBar;
     [SerializeField] Slider m_Slider;
@@ -91,8 +95,12 @@ public class PlayerController : MonoBehaviour
         m_HeadbuttInstance = FMODUnity.RuntimeManager.CreateInstance(m_HeadbuttEvent);
         m_WallContactInstance = FMODUnity.RuntimeManager.CreateInstance(m_WallContactEvent);
         m_PlayerAmbienceInstance = FMODUnity.RuntimeManager.CreateInstance(m_PlayerAmbienceEvent);
+        m_MusicInstance = FMODUnity.RuntimeManager.CreateInstance(m_MusicEvent);
         m_PlayerAmbienceInstance.start();
         m_PlayerAmbienceInstance.release();
+
+        m_MusicInstance.start();
+        m_MusicInstance.release();
                m_RB = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
         m_SpriteRenderer = GetComponent<SpriteRenderer>();

@@ -19,8 +19,8 @@ public class gasTrigger : MonoBehaviour
     {
         if (collision.transform.tag == "Player")
         {
-
-            if (collision.transform.GetComponent<PlayerController>().m_PlayerState == PlayerController.PlayerState.FAST ||
+            if (collision.transform.GetComponent<PlayerController>().m_PlayerState == PlayerController.PlayerState.SLOW) { return; }
+            else if (collision.transform.GetComponent<PlayerController>().m_PlayerState == PlayerController.PlayerState.FAST ||
                 collision.transform.GetComponent<PlayerController>().m_PlayerState == PlayerController.PlayerState.VOLATILE ||
                 collision.transform.GetComponent<PlayerController>().m_PlayerState == PlayerController.PlayerState.DEFAULT)
             {
