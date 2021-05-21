@@ -22,10 +22,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float m_StunTime, m_RespawmTime;
     [SerializeField] private bool m_EngineSpeedFast;
 
+
+    public bool hasKey = false;
     //Respawn
     public Transform m_StartPos;
     private bool m_FreezeController = false;
-
+    public GameObject Key;
     //FMOD
     private FMOD.Studio.EventInstance m_FootstepInstance;
     [Tooltip ("Enter the event path e.g: event:/New Event")]
@@ -551,6 +553,12 @@ public class PlayerController : MonoBehaviour
 
             Debug.LogError("You Died!");
         }
+        if (p_Object.transform.tag == "Key") 
+        {
+
+            hasKey = true;
+            Key.SetActive(false);
+        }
         if (m_PlayerState == PlayerState.FAST) 
         {m_PlayerState = PlayerState.STUNNED;}
         if (m_PlayerState == PlayerState.DEFAULT) { Debug.LogError("Too Fast??"); }
@@ -572,6 +580,9 @@ public class PlayerController : MonoBehaviour
         m_SmokeEffect.SetActive(true);
         m_ClockEffect.SetActive(true);
         m_HasCollectable = false;
+        hasKey = false;
+        Key.SetActive(true);
+
         AddDeath();
 
         transform.GetComponent<SpriteRenderer>().enabled = false;
