@@ -12,6 +12,7 @@ public class OnTrigger : MonoBehaviour
             
             collision.transform.GetComponent<PlayerController>().HasCollidedWithWall(transform.gameObject);
             collision.transform.GetComponent<PlayerController>().m_IsVolatile = true;
+            collision.transform.GetComponent<PlayerController>().SetVolatile();
             //Destroy(transform.gameObject);
         }
     }

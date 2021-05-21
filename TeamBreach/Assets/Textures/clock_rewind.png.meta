@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: 131743c122dd878418602354596ac7cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8199051326696487410
+    second: clock_rewind_0
+  - first:
+      213: -8278067716230979789
+    second: clock_rewind_1
+  - first:
+      213: 8418505998018750912
+    second: clock_rewind_2
+  - first:
+      213: -3706109573243523882
+    second: clock_rewind_3
+  - first:
+      213: 899599046601115072
+    second: clock_rewind_4
+  - first:
+      213: -8217584373096475674
+    second: clock_rewind_5
+  - first:
+      213: -619519258738434025
+    second: clock_rewind_6
+  - first:
+      213: -6703086904796595682
+    second: clock_rewind_7
+  - first:
+      213: 4327331676557743739
+    second: clock_rewind_8
+  - first:
+      213: -6216815636481905579
+    second: clock_rewind_9
+  - first:
+      213: -1427664527552478065
+    second: clock_rewind_10
+  - first:
+      213: -3075763877970949651
+    second: clock_rewind_11
+  - first:
+      213: 6098278920321962013
+    second: clock_rewind_12
+  - first:
+      213: -2596669580675709408
+    second: clock_rewind_13
+  - first:
+      213: 7965689852469747737
+    second: clock_rewind_14
+  - first:
+      213: 4201515961556366741
+    second: clock_rewind_15
+  - first:
+      213: 5494506986258108147
+    second: clock_rewind_16
+  - first:
+      213: -8454597409627436462
+    second: clock_rewind_17
+  - first:
+      213: 3721658999773385943
+    second: clock_rewind_18
+  - first:
+      213: 3657739898276882278
+    second: clock_rewind_19
+  - first:
+      213: 1375164858793373210
+    second: clock_rewind_20
+  - first:
+      213: 5685125622846372240
+    second: clock_rewind_21
+  - first:
+      213: -6961704099638512076
+    second: clock_rewind_22
+  - first:
+      213: 4583536446010908158
+    second: clock_rewind_23
+  - first:
+      213: 6914189326209483582
+    second: clock_rewind_24
+  - first:
+      213: -148282884311495196
+    second: clock_rewind_25
+  - first:
+      213: 3209454357473630436
+    second: clock_rewind_26
+  - first:
+      213: 3882786354117092974
+    second: clock_rewind_27
+  - first:
+      213: 8328237081108138973
+    second: clock_rewind_28
+  - first:
+      213: -3172555051697501740
+    second: clock_rewind_29
+  - first:
+      213: -2754820514637056494
+    second: clock_rewind_30
+  - first:
+      213: 5203361379006834916
+    second: clock_rewind_31
+  - first:
+      213: 5505855792351052888
+    second: clock_rewind_32
+  - first:
+      213: 7069037149995636396
+    second: clock_rewind_33
+  - first:
+      213: 869407215214889508
+    second: clock_rewind_34
+  - first:
+      213: 6483848967232439807
+    second: clock_rewind_35
+  - first:
+      213: -8364851186471761786
+    second: clock_rewind_36
+  - first:
+      213: 9053952166934591400
+    second: clock_rewind_37
+  - first:
+      213: 2129054811952380475
+    second: clock_rewind_38
+  - first:
+      213: 3281788077857159280
+    second: clock_rewind_39
+  - first:
+      213: 2357942168750929381
+    second: clock_rewind_40
+  - first:
+      213: 6986961529342363059
+    second: clock_rewind_41
+  - first:
+      213: -9178006159796851582
+    second: clock_rewind_42
+  - first:
+      213: 1181642081601941049
+    second: clock_rewind_43
+  - first:
+      213: 1897970154150572486
+    second: clock_rewind_44
+  - first:
+      213: 777846623867112679
+    second: clock_rewind_45
+  - first:
+      213: -8268187456853881538
+    second: clock_rewind_46
+  - first:
+      213: -7218349260781657682
+    second: clock_rewind_47
+  - first:
+      213: -5498126031436090559
+    second: clock_rewind_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clock_rewind_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e068f01424e173e80800000000000000
+      internalID: -8199051326696487410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_1
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f5c6b65456e1d80800000000000000
+      internalID: -8278067716230979789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_2
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9276f1a9a84d470800000000000000
+      internalID: 8418505998018750912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_3
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc252c9af0419cc0800000000000000
+      internalID: -3706109573243523882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_4
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c580fc01940c7c00800000000000000
+      internalID: 899599046601115072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_5
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e398c12d8645fd80800000000000000
+      internalID: -8217584373096475674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_6
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 13500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710e16b34860767f0800000000000000
+      internalID: -619519258738434025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ab60d79f9d9f2a0800000000000000
+      internalID: -6703086904796595682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_8
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76158e8b35cd0c30800000000000000
+      internalID: 4327331676557743739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_9
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ce661ed1f69b9a0800000000000000
+      internalID: -6216815636481905579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_10
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f840fc02daaef2ce0800000000000000
+      internalID: -1427664527552478065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_11
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de940909c01b055d0800000000000000
+      internalID: -3075763877970949651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_12
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d101b033e5071a450800000000000000
+      internalID: 6098278920321962013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_13
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 11250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02603cc26c6c6fbd0800000000000000
+      internalID: -2596669580675709408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910a46f77b0db8e60800000000000000
+      internalID: 7965689852469747737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_15
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59573b6a188ce4a30800000000000000
+      internalID: 4201515961556366741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_16
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe01db2ef8604c40800000000000000
+      internalID: 5494506986258108147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_17
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a0838437c3baa80800000000000000
+      internalID: -8454597409627436462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_18
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4d0a0642df5a330800000000000000
+      internalID: 3721658999773385943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_19
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6672195de07e2c230800000000000000
+      internalID: 3657739898276882278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_20
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 9000
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eaaf33721951310800000000000000
+      internalID: 1375164858793373210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ba3502af95ee40800000000000000
+      internalID: 5685125622846372240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_22
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4367aad810f036f90800000000000000
+      internalID: -6961704099638512076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_23
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd598fec1efb9f30800000000000000
+      internalID: 4583536446010908158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_24
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33838a2f8224ff50800000000000000
+      internalID: 6914189326209483582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_25
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edc75a908131fdf0800000000000000
+      internalID: -148282884311495196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_26
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e89b04dbb54a8c20800000000000000
+      internalID: 3209454357473630436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_27
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 6750
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6622effd9d62e530800000000000000
+      internalID: 3882786354117092974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbcfa81087d39370800000000000000
+      internalID: 8328237081108138973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_29
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d903394df1d8f3d0800000000000000
+      internalID: -3172555051697501740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_30
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216791d6659e4c9d0800000000000000
+      internalID: -2754820514637056494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_31
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e860b90b9d063840800000000000000
+      internalID: 5203361379006834916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_32
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8548c9ffbaab86c40800000000000000
+      internalID: 5505855792351052888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_33
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca69785a5d34a1260800000000000000
+      internalID: 7069037149995636396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_34
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 4500
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a8b048141c01c00800000000000000
+      internalID: 869407215214889508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff54c2568424bf950800000000000000
+      internalID: 6483848967232439807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_36
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688885f2a241aeb80800000000000000
+      internalID: -8364851186471761786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_37
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7b383a68916ad70800000000000000
+      internalID: 9053952166934591400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_38
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3af1cd321ceb8d10800000000000000
+      internalID: 2129054811952380475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_39
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078b9c08ed04b8d20800000000000000
+      internalID: 3281788077857159280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_40
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e53059d8e719b020800000000000000
+      internalID: 2357942168750929381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_41
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 2250
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b585cf0e7ca6f060800000000000000
+      internalID: 6986961529342363059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c26fa560c21a080800000000000000
+      internalID: -9178006159796851582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_43
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e698d6639066010800000000000000
+      internalID: 1181642081601941049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_44
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c13070acc1f65a10800000000000000
+      internalID: 1897970154150572486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_45
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec065912677bca00800000000000000
+      internalID: 777846623867112679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_46
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d42e1905f714d80800000000000000
+      internalID: -8268187456853881538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_47
+      rect:
+        serializedVersion: 2
+        x: 11310
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1e76e779543db90800000000000000
+      internalID: -7218349260781657682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_rewind_48
+      rect:
+        serializedVersion: 2
+        x: 13572
+        y: 0
+        width: 2262
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1437ce5318bb2b3b0800000000000000
+      internalID: -5498126031436090559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6ad17a59164d2db4ebe280773d22ddb5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

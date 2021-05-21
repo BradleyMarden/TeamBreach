@@ -54,10 +54,16 @@ Shader "Unlit/FireBarShader"
                 return o;
             }
 
+
+            float InverLerp(float a, float b, float v)
+            {
+            
+                return (v - a) / (b - a);
+
+            }
             fixed4 frag(v2f i) : SV_Target
             {
                 float fireBarMask = _Fuel > i.uvTwo.x;
-
             //Scrolls Texture
                 fixed yScrollValue = _ScrollYSpeed * _Time;
                 fixed xScrollValue = _ScrollXSpeed * _Time;
