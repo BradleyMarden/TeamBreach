@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FireBar
   m_Shader: {fileID: 4800000, guid: 12defdf6d4d227541b512aa43f6f7fa2, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -60,7 +60,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Fuel: 0.9681683
+    - _Fuel: 0.93940246
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
