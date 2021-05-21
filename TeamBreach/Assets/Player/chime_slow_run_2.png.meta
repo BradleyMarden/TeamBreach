@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: 0da620705ebb7b14e858284089512257
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7806618721569231574
+    second: chime_slow_run_2_0
+  - first:
+      213: 9134101830706671812
+    second: chime_slow_run_2_1
+  - first:
+      213: -388519129586389714
+    second: chime_slow_run_2_2
+  - first:
+      213: -7723479068266577250
+    second: chime_slow_run_2_3
+  - first:
+      213: 1399946529235702822
+    second: chime_slow_run_2_4
+  - first:
+      213: 2732923434621252952
+    second: chime_slow_run_2_5
+  - first:
+      213: 5399894002474020658
+    second: chime_slow_run_2_6
+  - first:
+      213: -8191011078374217894
+    second: chime_slow_run_2_7
+  - first:
+      213: -1064547676405149269
+    second: chime_slow_run_2_8
+  - first:
+      213: -4209121286165754271
+    second: chime_slow_run_2_9
+  - first:
+      213: 3668759421605808915
+    second: chime_slow_run_2_10
+  - first:
+      213: -6360804118197571105
+    second: chime_slow_run_2_11
+  - first:
+      213: 1489391249229346957
+    second: chime_slow_run_2_12
+  - first:
+      213: 3757801385156612666
+    second: chime_slow_run_2_13
+  - first:
+      213: 3933762524981753248
+    second: chime_slow_run_2_14
+  - first:
+      213: -4331310217846950061
+    second: chime_slow_run_2_15
+  - first:
+      213: 383855375463244970
+    second: chime_slow_run_2_16
+  - first:
+      213: -3287471684639893159
+    second: chime_slow_run_2_17
+  - first:
+      213: -5667470625715245348
+    second: chime_slow_run_2_18
+  - first:
+      213: 8692633928098203015
+    second: chime_slow_run_2_19
+  - first:
+      213: 8675486797932643341
+    second: chime_slow_run_2_20
+  - first:
+      213: -1186601234857432331
+    second: chime_slow_run_2_21
+  - first:
+      213: 6606587739531276944
+    second: chime_slow_run_2_22
+  - first:
+      213: -6337107474030816896
+    second: chime_slow_run_2_23
+  - first:
+      213: 4866535247980820965
+    second: chime_slow_run_2_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chime_slow_run_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10912
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d25c04bd5ea65c60800000000000000
+      internalID: 7806618721569231574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_1
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 10912
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c034817839d2ce70800000000000000
+      internalID: 9134101830706671812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_2
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 10912
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d2f8cf8e3bb9af0800000000000000
+      internalID: -388519129586389714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_3
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 10912
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e924ec945b0b0d490800000000000000
+      internalID: -7723479068266577250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_4
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 10912
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62492ab73fb9d6310800000000000000
+      internalID: 1399946529235702822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8184
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b0f6526b4de520800000000000000
+      internalID: 2732923434621252952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_6
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 8184
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fe9324cf640fa40800000000000000
+      internalID: 5399894002474020658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_7
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 8184
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57273272dea35e80800000000000000
+      internalID: -8191011078374217894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_8
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 8184
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1576d4787f931f0800000000000000
+      internalID: -1064547676405149269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_9
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 8184
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e0e89bd723695c0800000000000000
+      internalID: -4209121286165754271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5456
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8e2b814d0ae230800000000000000
+      internalID: 3668759421605808915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_11
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 5456
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1fdf00b52e9b7a0800000000000000
+      internalID: -6360804118197571105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_12
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 5456
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88f3e533716ba410800000000000000
+      internalID: 1489391249229346957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_13
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 5456
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a321bba3374662430800000000000000
+      internalID: 3757801385156612666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_14
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 5456
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5f74cac28879630800000000000000
+      internalID: 3933762524981753248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2728
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357763d1e4814e3c0800000000000000
+      internalID: -4331310217846950061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_16
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2728
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa46c932e6ab35500800000000000000
+      internalID: 383855375463244970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_17
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 2728
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95952ebabed8062d0800000000000000
+      internalID: -3287471684639893159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_18
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 2728
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde28435e791951b0800000000000000
+      internalID: -5667470625715245348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_19
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 2728
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7854dc6808072a870800000000000000
+      internalID: 8692633928098203015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04cd5c2745856870800000000000000
+      internalID: 8675486797932643341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_21
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 0
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa684ab678588fe0800000000000000
+      internalID: -1186601234857432331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_22
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 0
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927630cb805fab50800000000000000
+      internalID: 6606587739531276944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_23
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 0
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0819beae3521e08a0800000000000000
+      internalID: -6337107474030816896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chime_slow_run_2_24
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 0
+        width: 1464
+        height: 2728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e970d62608698340800000000000000
+      internalID: 4866535247980820965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 384ab1802e85ea649bf604646324edb2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

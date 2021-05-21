@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 651e452a01c67a04ea85e737e28d8799
+guid: 6a79cf376a6b9f9409e5269a5cd9dd93
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -86,282 +86,6 @@ TextureImporter:
   - first:
       213: 8050163734835041758
     second: _himeBar_27
-  - first:
-      213: 4706232489629909121
-    second: _himeBar_28
-  - first:
-      213: -8522160560847878402
-    second: _himeBar_29
-  - first:
-      213: -7411331999062767710
-    second: _himeBar_30
-  - first:
-      213: -5018537498049710424
-    second: _himeBar_31
-  - first:
-      213: -7840099120083492137
-    second: _himeBar_32
-  - first:
-      213: 2335816195274762946
-    second: _himeBar_33
-  - first:
-      213: 2348582662405925049
-    second: _himeBar_34
-  - first:
-      213: 8555310279493782923
-    second: _himeBar_35
-  - first:
-      213: 8585420657127244567
-    second: _himeBar_36
-  - first:
-      213: 2240389328293447477
-    second: _himeBar_37
-  - first:
-      213: -1962892047027012607
-    second: _himeBar_38
-  - first:
-      213: 9104841093652389920
-    second: _himeBar_39
-  - first:
-      213: -6811818496464362768
-    second: _himeBar_40
-  - first:
-      213: 3075759564272577318
-    second: _himeBar_41
-  - first:
-      213: 7786182733682488240
-    second: _himeBar_42
-  - first:
-      213: -5372398445415582465
-    second: _himeBar_43
-  - first:
-      213: -3705700193379928791
-    second: _himeBar_44
-  - first:
-      213: -718839314589702349
-    second: _himeBar_45
-  - first:
-      213: -2473157245885420785
-    second: _himeBar_46
-  - first:
-      213: 6338777520562590450
-    second: _himeBar_47
-  - first:
-      213: 5945824313377725107
-    second: _himeBar_48
-  - first:
-      213: 4646297185988195961
-    second: _himeBar_49
-  - first:
-      213: -6693517649828698887
-    second: _himeBar_50
-  - first:
-      213: 5290827063611142529
-    second: _himeBar_51
-  - first:
-      213: 2927157673777990348
-    second: _himeBar_52
-  - first:
-      213: -7989207732269156901
-    second: _himeBar_53
-  - first:
-      213: 5989783953307973987
-    second: _himeBar_54
-  - first:
-      213: 2197573653505898624
-    second: _himeBar_55
-  - first:
-      213: 7963711575891143617
-    second: _himeBar_56
-  - first:
-      213: 4486026101058202641
-    second: _himeBar_57
-  - first:
-      213: -5458434167392321735
-    second: _himeBar_58
-  - first:
-      213: 4483651549450203082
-    second: _himeBar_59
-  - first:
-      213: 5389516511357146615
-    second: _himeBar_60
-  - first:
-      213: -204266300891411476
-    second: _himeBar_61
-  - first:
-      213: 5341468156302817164
-    second: _himeBar_62
-  - first:
-      213: 62770378075101545
-    second: _himeBar_63
-  - first:
-      213: 3281024016241871398
-    second: _himeBar_64
-  - first:
-      213: 608059381231515275
-    second: _himeBar_65
-  - first:
-      213: -4970839715122241935
-    second: _himeBar_66
-  - first:
-      213: -5525615707739381640
-    second: _himeBar_67
-  - first:
-      213: -6037843297372793674
-    second: _himeBar_68
-  - first:
-      213: 4725487659935327461
-    second: _himeBar_69
-  - first:
-      213: -3741310264864439085
-    second: _himeBar_70
-  - first:
-      213: 3565953887007612948
-    second: _himeBar_71
-  - first:
-      213: -6778928964261770791
-    second: _himeBar_72
-  - first:
-      213: -4265118318588845571
-    second: _himeBar_73
-  - first:
-      213: -2047871306823971112
-    second: _himeBar_74
-  - first:
-      213: 6527577008799533924
-    second: _himeBar_75
-  - first:
-      213: 8816139761096163989
-    second: _himeBar_76
-  - first:
-      213: 2168668284324441152
-    second: _himeBar_77
-  - first:
-      213: 3763513009137049636
-    second: _himeBar_78
-  - first:
-      213: -4588677049677184997
-    second: _himeBar_79
-  - first:
-      213: -4334777751062037273
-    second: _himeBar_80
-  - first:
-      213: -4525968961236704881
-    second: _himeBar_81
-  - first:
-      213: -5854230003500003092
-    second: _himeBar_82
-  - first:
-      213: -2073831175399445223
-    second: _himeBar_83
-  - first:
-      213: -1159662261818379504
-    second: _himeBar_84
-  - first:
-      213: -7067559661302391317
-    second: _himeBar_85
-  - first:
-      213: -4414460063170245436
-    second: _himeBar_86
-  - first:
-      213: 2609043404057127409
-    second: _himeBar_87
-  - first:
-      213: -8194890715887993553
-    second: _himeBar_88
-  - first:
-      213: -336417234712533263
-    second: _himeBar_89
-  - first:
-      213: 3664090670795131021
-    second: _himeBar_90
-  - first:
-      213: -827525126254722021
-    second: _himeBar_91
-  - first:
-      213: -5696884315770600383
-    second: _himeBar_92
-  - first:
-      213: -8209619952116320522
-    second: _himeBar_93
-  - first:
-      213: 7532244972987446607
-    second: _himeBar_94
-  - first:
-      213: 2588755566320790372
-    second: _himeBar_95
-  - first:
-      213: -1224420016019789654
-    second: _himeBar_96
-  - first:
-      213: -581881130726716761
-    second: _himeBar_97
-  - first:
-      213: 321133055277454610
-    second: _himeBar_98
-  - first:
-      213: 2286737796784539106
-    second: _himeBar_99
-  - first:
-      213: 4761305381920764104
-    second: _himeBar_100
-  - first:
-      213: 8102326300270365341
-    second: _himeBar_101
-  - first:
-      213: -3196935677412381816
-    second: _himeBar_102
-  - first:
-      213: -6452524807768789990
-    second: _himeBar_103
-  - first:
-      213: -5793438284597333699
-    second: _himeBar_104
-  - first:
-      213: 571985710314616804
-    second: _himeBar_105
-  - first:
-      213: -8171263150027016180
-    second: _himeBar_106
-  - first:
-      213: -6948771122358432876
-    second: _himeBar_107
-  - first:
-      213: 8311966453355358477
-    second: _himeBar_108
-  - first:
-      213: 5301236225372898779
-    second: _himeBar_109
-  - first:
-      213: 4058374920703795545
-    second: _himeBar_110
-  - first:
-      213: -8530320573490420952
-    second: _himeBar_111
-  - first:
-      213: 3099832686729695027
-    second: _himeBar_112
-  - first:
-      213: -5522834616996146359
-    second: _himeBar_113
-  - first:
-      213: -4485768273637723108
-    second: _himeBar_114
-  - first:
-      213: 6667300195980041888
-    second: _himeBar_115
-  - first:
-      213: -7639750227428484068
-    second: _himeBar_116
-  - first:
-      213: 8941259901578951979
-    second: _himeBar_117
-  - first:
-      213: -718005684046768252
-    second: _himeBar_118
-  - first:
-      213: -611484397207732098
-    second: _himeBar_119
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -392,7 +116,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -426,7 +150,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -438,7 +162,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -454,8 +178,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,10 +197,10 @@ TextureImporter:
       name: _himeBar_1
       rect:
         serializedVersion: 2
-        x: 192
+        x: 461
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +218,10 @@ TextureImporter:
       name: _himeBar_2
       rect:
         serializedVersion: 2
-        x: 384
+        x: 922
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +239,10 @@ TextureImporter:
       name: _himeBar_3
       rect:
         serializedVersion: 2
-        x: 576
+        x: 1383
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +260,10 @@ TextureImporter:
       name: _himeBar_4
       rect:
         serializedVersion: 2
-        x: 768
+        x: 1844
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,10 +281,10 @@ TextureImporter:
       name: _himeBar_5
       rect:
         serializedVersion: 2
-        x: 960
+        x: 2305
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +302,10 @@ TextureImporter:
       name: _himeBar_6
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 2766
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,10 +323,10 @@ TextureImporter:
       name: _himeBar_7
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 3227
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,10 +344,10 @@ TextureImporter:
       name: _himeBar_8
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 3688
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,10 +365,10 @@ TextureImporter:
       name: _himeBar_9
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 4149
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,10 +386,10 @@ TextureImporter:
       name: _himeBar_10
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 4610
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,10 +407,10 @@ TextureImporter:
       name: _himeBar_11
       rect:
         serializedVersion: 2
-        x: 2112
+        x: 5071
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,10 +428,10 @@ TextureImporter:
       name: _himeBar_12
       rect:
         serializedVersion: 2
-        x: 2304
+        x: 5532
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,10 +449,10 @@ TextureImporter:
       name: _himeBar_13
       rect:
         serializedVersion: 2
-        x: 2496
+        x: 5993
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,10 +470,10 @@ TextureImporter:
       name: _himeBar_14
       rect:
         serializedVersion: 2
-        x: 2688
+        x: 6454
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,10 +491,10 @@ TextureImporter:
       name: _himeBar_15
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 6915
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,10 +512,10 @@ TextureImporter:
       name: _himeBar_16
       rect:
         serializedVersion: 2
-        x: 3072
+        x: 7376
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,10 +533,10 @@ TextureImporter:
       name: _himeBar_17
       rect:
         serializedVersion: 2
-        x: 3264
+        x: 7837
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,10 +554,10 @@ TextureImporter:
       name: _himeBar_18
       rect:
         serializedVersion: 2
-        x: 3456
+        x: 8298
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -851,10 +575,10 @@ TextureImporter:
       name: _himeBar_19
       rect:
         serializedVersion: 2
-        x: 3648
+        x: 8759
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -872,10 +596,10 @@ TextureImporter:
       name: _himeBar_20
       rect:
         serializedVersion: 2
-        x: 3840
+        x: 9220
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,10 +617,10 @@ TextureImporter:
       name: _himeBar_21
       rect:
         serializedVersion: 2
-        x: 4032
+        x: 9681
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -914,10 +638,10 @@ TextureImporter:
       name: _himeBar_22
       rect:
         serializedVersion: 2
-        x: 4224
+        x: 10142
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -935,10 +659,10 @@ TextureImporter:
       name: _himeBar_23
       rect:
         serializedVersion: 2
-        x: 4416
+        x: 10603
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,10 +680,10 @@ TextureImporter:
       name: _himeBar_24
       rect:
         serializedVersion: 2
-        x: 4608
+        x: 11064
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,10 +701,10 @@ TextureImporter:
       name: _himeBar_25
       rect:
         serializedVersion: 2
-        x: 4800
+        x: 11525
         y: 0
-        width: 192.3077
-        height: 358
+        width: 461.53845
+        height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -997,7 +721,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2e86c78978ef4a245a1e31b82c830586
+    spriteID: 5d6f5a1661afcfc40b92f5d7ee54c766
     internalID: 0
     vertices: []
     indices: 
