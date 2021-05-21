@@ -530,6 +530,13 @@ public class PlayerController : MonoBehaviour
         m_ExtinguishInstance.release();
         StartCoroutine(Respawn());
     }
+    public void ExtinguishSound()
+    {
+
+        m_ExtinguishInstance.setParameterByName("State", 3f);
+        m_ExtinguishInstance.start();
+        m_ExtinguishInstance.release();
+    }
     public void HasCollidedWithWall(GameObject p_Object) 
     {
         if (m_IsVolatile && p_Object.transform.tag != "Collectable") 
