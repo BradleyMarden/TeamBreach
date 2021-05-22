@@ -563,7 +563,6 @@ public class PlayerController : MonoBehaviour
 
             hasKey = true;
             Key.SetActive(false);
-            SceneManager.LoadScene("end");
 
         }
         if (m_PlayerState == PlayerState.FAST) 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpenWithKEy : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class OpenWithKEy : MonoBehaviour
             {
                 collision.transform.GetComponent<PlayerController>().BreakThroughWall();
                 transform.gameObject.SetActive(false);
+                SceneManager.LoadScene("end");
+
             }
         }
     }
